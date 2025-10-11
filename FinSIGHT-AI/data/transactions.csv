@@ -1,0 +1,823 @@
+transaction_id,date,description,merchant,category,amount,type,day_of_week,day_of_month,month,year,is_weekend,balance
+1,2024-10-16 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-148.33,debit,Wednesday,16,10,2024,False,-148.33
+2,2024-10-17 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-320.57,debit,Thursday,17,10,2024,False,-468.9
+3,2024-10-18 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-222.25,debit,Friday,18,10,2024,True,-691.15
+4,2024-10-18 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-79.02,debit,Friday,18,10,2024,True,-770.17
+5,2024-10-18 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-272.24,debit,Friday,18,10,2024,True,-1042.4099999999999
+6,2024-10-18 10:58:05.115834,Etisalat - Utilities,Etisalat,Utilities,-537.1,debit,Friday,18,10,2024,True,-1579.5099999999998
+7,2024-10-19 10:58:05.115834,Uber - Transportation,Uber,Transportation,-264.83,debit,Saturday,19,10,2024,True,-1844.3399999999997
+8,2024-10-19 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-131.08,debit,Saturday,19,10,2024,True,-1975.4199999999996
+9,2024-10-21 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-85.2,debit,Monday,21,10,2024,False,-2060.6199999999994
+10,2024-10-22 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-454.15,debit,Tuesday,22,10,2024,False,-2514.7699999999995
+11,2024-10-22 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-48.37,debit,Tuesday,22,10,2024,False,-2563.1399999999994
+12,2024-10-22 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-574.18,debit,Tuesday,22,10,2024,False,-3137.3199999999993
+13,2024-10-23 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-30.59,debit,Wednesday,23,10,2024,False,-3167.9099999999994
+14,2024-10-23 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-169.04,debit,Wednesday,23,10,2024,False,-3336.9499999999994
+15,2024-10-23 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-272.57,debit,Wednesday,23,10,2024,False,-3609.5199999999995
+16,2024-10-23 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-238.27,debit,Wednesday,23,10,2024,False,-3847.7899999999995
+17,2024-10-23 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-118.85,debit,Wednesday,23,10,2024,False,-3966.6399999999994
+18,2024-10-24 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-54.03,debit,Thursday,24,10,2024,False,-4020.6699999999996
+19,2024-10-25 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-26.8,debit,Friday,25,10,2024,True,-4047.47
+20,2024-10-25 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-711.76,debit,Friday,25,10,2024,True,-4759.23
+21,2024-10-25 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-98.35,debit,Friday,25,10,2024,True,-4857.58
+22,2024-10-26 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-180.61,debit,Saturday,26,10,2024,True,-5038.19
+23,2024-10-27 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-261.3,debit,Sunday,27,10,2024,False,-5299.49
+24,2024-10-28 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-243.21,debit,Monday,28,10,2024,False,-5542.7
+25,2024-10-28 10:58:05.115834,Parking - Transportation,Parking,Transportation,-198.46,debit,Monday,28,10,2024,False,-5741.16
+26,2024-10-28 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-930.19,debit,Monday,28,10,2024,False,-6671.35
+27,2024-10-28 10:58:05.115834,DEWA - Utilities,DEWA,Utilities,-576.64,debit,Monday,28,10,2024,False,-7247.990000000001
+28,2024-10-28 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-99.89,debit,Monday,28,10,2024,False,-7347.880000000001
+29,2024-10-29 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-26.75,debit,Tuesday,29,10,2024,False,-7374.630000000001
+30,2024-10-29 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-938.91,debit,Tuesday,29,10,2024,False,-8313.54
+31,2024-10-29 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-147.25,debit,Tuesday,29,10,2024,False,-8460.79
+32,2024-10-30 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-228.28,debit,Wednesday,30,10,2024,False,-8689.070000000002
+33,2024-10-30 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-61.51,debit,Wednesday,30,10,2024,False,-8750.580000000002
+34,2024-10-30 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-106.93,debit,Wednesday,30,10,2024,False,-8857.510000000002
+35,2024-10-30 10:58:05.115834,Disney+ - Subscriptions,Disney+,Subscriptions,-94.32,debit,Wednesday,30,10,2024,False,-8951.830000000002
+36,2024-10-31 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-57.89,debit,Thursday,31,10,2024,False,-9009.720000000001
+37,2024-11-01 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-176.05,debit,Friday,1,11,2024,True,-9185.77
+38,2024-11-01 10:58:05.115834,Careem - Transportation,Careem,Transportation,-45.09,debit,Friday,1,11,2024,True,-9230.86
+39,2024-11-02 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-53.78,debit,Saturday,2,11,2024,True,-9284.640000000001
+40,2024-11-02 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-157.19,debit,Saturday,2,11,2024,True,-9441.830000000002
+41,2024-11-03 10:58:05.115834,Talise Fitness - Fitness,Talise Fitness,Fitness,-480.41,debit,Sunday,3,11,2024,False,-9922.240000000002
+42,2024-11-03 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-147.07,debit,Sunday,3,11,2024,False,-10069.310000000001
+43,2024-11-03 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-181.1,debit,Sunday,3,11,2024,False,-10250.410000000002
+44,2024-11-04 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-385.81,debit,Monday,4,11,2024,False,-10636.220000000001
+45,2024-11-04 10:58:05.115834,Careem - Transportation,Careem,Transportation,-289.67,debit,Monday,4,11,2024,False,-10925.890000000001
+46,2024-11-04 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-252.07,debit,Monday,4,11,2024,False,-11177.960000000001
+47,2024-11-05 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-127.66,debit,Tuesday,5,11,2024,False,-11305.62
+48,2024-11-05 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-58.49,debit,Tuesday,5,11,2024,False,-11364.11
+49,2024-11-05 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-118.04,debit,Tuesday,5,11,2024,False,-11482.150000000001
+50,2024-11-06 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-295.64,debit,Wednesday,6,11,2024,False,-11777.79
+51,2024-11-07 10:58:05.115834,Talise Fitness - Fitness,Talise Fitness,Fitness,-271.61,debit,Thursday,7,11,2024,False,-12049.400000000001
+52,2024-11-08 10:58:05.115834,Life Pharmacy - Healthcare,Life Pharmacy,Healthcare,-140.02,debit,Friday,8,11,2024,True,-12189.420000000002
+53,2024-11-08 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-237.68,debit,Friday,8,11,2024,True,-12427.100000000002
+54,2024-11-08 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-194.8,debit,Friday,8,11,2024,True,-12621.900000000001
+55,2024-11-09 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-232.09,debit,Saturday,9,11,2024,True,-12853.990000000002
+56,2024-11-09 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-85.77,debit,Saturday,9,11,2024,True,-12939.760000000002
+57,2024-11-09 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-114.79,debit,Saturday,9,11,2024,True,-13054.550000000003
+58,2024-11-09 10:58:05.115834,Parking - Transportation,Parking,Transportation,-210.06,debit,Saturday,9,11,2024,True,-13264.610000000002
+59,2024-11-10 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-678.78,debit,Sunday,10,11,2024,False,-13943.390000000003
+60,2024-11-10 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-146.87,debit,Sunday,10,11,2024,False,-14090.260000000004
+61,2024-11-10 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,14102.0,credit,Sunday,10,11,2024,False,11.739999999996144
+62,2024-11-10 10:58:05.115834,Careem - Transportation,Careem,Transportation,-125.94,debit,Sunday,10,11,2024,False,-114.20000000000385
+63,2024-11-10 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-315.58,debit,Sunday,10,11,2024,False,-429.78000000000384
+64,2024-11-11 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-104.15,debit,Monday,11,11,2024,False,-533.9300000000038
+65,2024-11-11 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-485.43,debit,Monday,11,11,2024,False,-1019.3600000000038
+66,2024-11-12 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-353.27,debit,Tuesday,12,11,2024,False,-1372.6300000000037
+67,2024-11-12 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-108.17,debit,Tuesday,12,11,2024,False,-1480.8000000000038
+68,2024-11-13 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-73.22,debit,Wednesday,13,11,2024,False,-1554.0200000000038
+69,2024-11-14 10:58:05.115834,Building Maintenance - Utilities,Building Maintenance,Utilities,-262.97,debit,Thursday,14,11,2024,False,-1816.9900000000039
+70,2024-11-14 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-183.69,debit,Thursday,14,11,2024,False,-2000.680000000004
+71,2024-11-15 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-157.66,debit,Friday,15,11,2024,True,-2158.340000000004
+72,2024-11-16 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-183.01,debit,Saturday,16,11,2024,True,-2341.350000000004
+73,2024-11-16 10:58:05.115834,Parking - Transportation,Parking,Transportation,-136.46,debit,Saturday,16,11,2024,True,-2477.810000000004
+74,2024-11-17 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-93.36,debit,Sunday,17,11,2024,False,-2571.170000000004
+75,2024-11-17 10:58:05.115834,Talise Fitness - Fitness,Talise Fitness,Fitness,-270.35,debit,Sunday,17,11,2024,False,-2841.520000000004
+76,2024-11-17 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-124.6,debit,Sunday,17,11,2024,False,-2966.120000000004
+77,2024-11-18 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-309.85,debit,Monday,18,11,2024,False,-3275.970000000004
+78,2024-11-18 10:58:05.115834,Careem - Transportation,Careem,Transportation,-270.86,debit,Monday,18,11,2024,False,-3546.830000000004
+79,2024-11-18 10:58:05.115834,Parking - Transportation,Parking,Transportation,-271.01,debit,Monday,18,11,2024,False,-3817.840000000004
+80,2024-11-18 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-176.35,debit,Monday,18,11,2024,False,-3994.1900000000037
+81,2024-11-21 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-711.54,debit,Thursday,21,11,2024,False,-4705.730000000003
+82,2024-11-21 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-41.48,debit,Thursday,21,11,2024,False,-4747.210000000003
+83,2024-11-21 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-252.4,debit,Thursday,21,11,2024,False,-4999.610000000002
+84,2024-11-22 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-34.02,debit,Friday,22,11,2024,True,-5033.630000000003
+85,2024-11-22 10:58:05.115834,H&M - Shopping,H&M,Shopping,-1515.48,debit,Friday,22,11,2024,True,-6549.110000000002
+86,2024-11-22 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-166.07,debit,Friday,22,11,2024,True,-6715.180000000002
+87,2024-11-23 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-178.37,debit,Saturday,23,11,2024,True,-6893.550000000002
+88,2024-11-23 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-152.13,debit,Saturday,23,11,2024,True,-7045.680000000002
+89,2024-11-24 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-378.63,debit,Sunday,24,11,2024,False,-7424.310000000002
+90,2024-11-24 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-232.05,debit,Sunday,24,11,2024,False,-7656.360000000002
+91,2024-11-24 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-123.72,debit,Sunday,24,11,2024,False,-7780.080000000003
+92,2024-11-24 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-56.24,debit,Sunday,24,11,2024,False,-7836.320000000002
+93,2024-11-24 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-181.31,debit,Sunday,24,11,2024,False,-8017.630000000003
+94,2024-11-25 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-163.41,debit,Monday,25,11,2024,False,-8181.040000000003
+95,2024-11-26 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-105.21,debit,Tuesday,26,11,2024,False,-8286.250000000002
+96,2024-11-27 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-151.27,debit,Wednesday,27,11,2024,False,-8437.520000000002
+97,2024-11-27 10:58:05.115834,Parking - Transportation [UNUSUAL],Parking,Transportation,-740.2142606259625,debit,Wednesday,27,11,2024,False,-8664.480000000001
+98,2024-11-28 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-40.01,debit,Thursday,28,11,2024,False,-8704.490000000002
+99,2024-11-29 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-399.46,debit,Friday,29,11,2024,True,-9103.95
+100,2024-11-30 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-822.02,debit,Saturday,30,11,2024,True,-9925.970000000001
+101,2024-12-01 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-839.04,debit,Sunday,1,12,2024,False,-10765.010000000002
+102,2024-12-02 10:58:05.115834,Uber - Transportation,Uber,Transportation,-282.38,debit,Monday,2,12,2024,False,-11047.390000000001
+103,2024-12-02 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-65.63,debit,Monday,2,12,2024,False,-11113.02
+104,2024-12-03 10:58:05.115834,Uber - Transportation,Uber,Transportation,-127.76,debit,Tuesday,3,12,2024,False,-11240.78
+105,2024-12-03 10:58:05.115834,Subway - Dining & Coffee [UNUSUAL],Subway,Dining & Coffee,-197.0475056079726,debit,Tuesday,3,12,2024,False,-11283.18
+106,2024-12-05 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-248.54,debit,Thursday,5,12,2024,False,-11531.720000000001
+107,2024-12-05 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-125.91,debit,Thursday,5,12,2024,False,-11657.630000000001
+108,2024-12-05 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-52.74,debit,Thursday,5,12,2024,False,-11710.37
+109,2024-12-06 10:58:05.115834,Careem - Transportation,Careem,Transportation,-104.59,debit,Friday,6,12,2024,True,-11814.960000000001
+110,2024-12-06 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-187.54,debit,Friday,6,12,2024,True,-12002.500000000002
+111,2024-12-06 10:58:05.115834,Uber - Transportation,Uber,Transportation,-190.72,debit,Friday,6,12,2024,True,-12193.220000000001
+112,2024-12-06 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-988.5,debit,Friday,6,12,2024,True,-13181.720000000001
+113,2024-12-06 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-226.89,debit,Friday,6,12,2024,True,-13408.61
+114,2024-12-07 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-264.09,debit,Saturday,7,12,2024,True,-13672.7
+115,2024-12-07 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-25.14,debit,Saturday,7,12,2024,True,-13697.84
+116,2024-12-08 10:58:05.115834,Parking - Transportation,Parking,Transportation,-67.14,debit,Sunday,8,12,2024,False,-13764.98
+117,2024-12-08 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-415.05,debit,Sunday,8,12,2024,False,-14180.029999999999
+118,2024-12-09 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-346.21,debit,Monday,9,12,2024,False,-14526.239999999998
+119,2024-12-09 10:58:05.115834,Zara - Shopping,Zara,Shopping,-789.5,debit,Monday,9,12,2024,False,-15315.739999999998
+120,2024-12-09 10:58:05.115834,Building Maintenance - Utilities,Building Maintenance,Utilities,-393.84,debit,Monday,9,12,2024,False,-15709.579999999998
+121,2024-12-09 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-632.02,debit,Monday,9,12,2024,False,-16341.599999999999
+122,2024-12-10 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-64.36,debit,Tuesday,10,12,2024,False,-16405.96
+123,2024-12-10 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-948.17,debit,Tuesday,10,12,2024,False,-17354.129999999997
+124,2024-12-10 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-339.66,debit,Tuesday,10,12,2024,False,-17693.789999999997
+125,2024-12-10 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-398.24,debit,Tuesday,10,12,2024,False,-18092.03
+126,2024-12-10 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-209.19,debit,Tuesday,10,12,2024,False,-18301.219999999998
+127,2024-12-10 10:58:05.115834,Uber - Transportation,Uber,Transportation,-136.55,debit,Tuesday,10,12,2024,False,-18437.769999999997
+128,2024-12-12 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,15003.0,credit,Thursday,12,12,2024,False,-3434.769999999997
+129,2024-12-12 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-181.3,debit,Thursday,12,12,2024,False,-3616.069999999997
+130,2024-12-12 10:58:05.115834,Zara - Shopping,Zara,Shopping,-483.64,debit,Thursday,12,12,2024,False,-4099.709999999997
+131,2024-12-13 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-241.51,debit,Friday,13,12,2024,True,-4341.2199999999975
+132,2024-12-13 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-115.93,debit,Friday,13,12,2024,True,-4457.149999999998
+133,2024-12-13 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-195.16,debit,Friday,13,12,2024,True,-4652.309999999998
+134,2024-12-14 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-358.3,debit,Saturday,14,12,2024,True,-5010.609999999998
+135,2024-12-14 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-174.95,debit,Saturday,14,12,2024,True,-5185.559999999998
+136,2024-12-15 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-632.59,debit,Sunday,15,12,2024,False,-5818.149999999998
+137,2024-12-15 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-43.19,debit,Sunday,15,12,2024,False,-5861.339999999997
+138,2024-12-16 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-113.56,debit,Monday,16,12,2024,False,-5974.899999999998
+139,2024-12-16 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-182.69,debit,Monday,16,12,2024,False,-6157.589999999997
+140,2024-12-16 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-138.79,debit,Monday,16,12,2024,False,-6296.379999999997
+141,2024-12-16 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-190.68,debit,Monday,16,12,2024,False,-6487.059999999998
+142,2024-12-17 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-258.82,debit,Tuesday,17,12,2024,False,-6745.879999999997
+143,2024-12-17 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-97.49,debit,Tuesday,17,12,2024,False,-6843.369999999997
+144,2024-12-17 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-142.76,debit,Tuesday,17,12,2024,False,-6986.129999999997
+145,2024-12-17 10:58:05.115834,Uber - Transportation,Uber,Transportation,-74.26,debit,Tuesday,17,12,2024,False,-7060.389999999998
+146,2024-12-17 10:58:05.115834,H&M - Shopping,H&M,Shopping,-277.87,debit,Tuesday,17,12,2024,False,-7338.2599999999975
+147,2024-12-18 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-157.91,debit,Wednesday,18,12,2024,False,-7496.169999999997
+148,2024-12-18 10:58:05.115834,Parking - Transportation,Parking,Transportation,-165.4,debit,Wednesday,18,12,2024,False,-7661.569999999997
+149,2024-12-19 10:58:05.115834,Uber - Transportation,Uber,Transportation,-41.58,debit,Thursday,19,12,2024,False,-7703.149999999997
+150,2024-12-20 10:58:05.115834,Zara - Shopping,Zara,Shopping,-438.09,debit,Friday,20,12,2024,True,-8141.239999999997
+151,2024-12-20 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-63.42,debit,Friday,20,12,2024,True,-8204.659999999996
+152,2024-12-20 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-72.75,debit,Friday,20,12,2024,True,-8277.409999999996
+153,2024-12-22 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-208.78,debit,Sunday,22,12,2024,False,-8486.189999999997
+154,2024-12-22 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-66.6,debit,Sunday,22,12,2024,False,-8552.789999999997
+155,2024-12-23 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-397.6,debit,Monday,23,12,2024,False,-8950.389999999998
+156,2024-12-23 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-44.99,debit,Monday,23,12,2024,False,-8995.379999999997
+157,2024-12-23 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-166.55,debit,Monday,23,12,2024,False,-9161.929999999997
+158,2024-12-24 10:58:05.115834,Parking - Transportation,Parking,Transportation,-178.65,debit,Tuesday,24,12,2024,False,-9340.579999999996
+159,2024-12-24 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-497.14,debit,Tuesday,24,12,2024,False,-9837.719999999996
+160,2024-12-24 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-251.46,debit,Tuesday,24,12,2024,False,-10089.179999999995
+161,2024-12-24 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-348.71,debit,Tuesday,24,12,2024,False,-10437.889999999994
+162,2024-12-25 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-316.43,debit,Wednesday,25,12,2024,False,-10754.319999999994
+163,2024-12-25 10:58:05.115834,Uber - Transportation,Uber,Transportation,-213.83,debit,Wednesday,25,12,2024,False,-10968.149999999994
+164,2024-12-25 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-106.45,debit,Wednesday,25,12,2024,False,-11074.599999999995
+165,2024-12-26 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-97.66,debit,Thursday,26,12,2024,False,-11172.259999999995
+166,2024-12-27 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-907.32,debit,Friday,27,12,2024,True,-12079.579999999994
+167,2024-12-28 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-311.63,debit,Saturday,28,12,2024,True,-12391.209999999994
+168,2024-12-29 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-71.79,debit,Sunday,29,12,2024,False,-12462.999999999995
+169,2024-12-30 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-186.1,debit,Monday,30,12,2024,False,-12649.099999999995
+170,2024-12-30 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-229.87,debit,Monday,30,12,2024,False,-12878.969999999996
+171,2024-12-30 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-80.64,debit,Monday,30,12,2024,False,-12959.609999999995
+172,2024-12-30 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-81.01,debit,Monday,30,12,2024,False,-13040.619999999995
+173,2024-12-30 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-190.13,debit,Monday,30,12,2024,False,-13230.749999999995
+174,2024-12-30 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-95.2,debit,Monday,30,12,2024,False,-13325.949999999995
+175,2024-12-31 10:58:05.115834,Uber - Transportation,Uber,Transportation,-133.4,debit,Tuesday,31,12,2024,False,-13459.349999999995
+176,2025-01-02 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-101.31,debit,Thursday,2,1,2025,False,-13560.659999999994
+177,2025-01-02 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-216.94,debit,Thursday,2,1,2025,False,-13777.599999999995
+178,2025-01-03 10:58:05.115834,Zara - Shopping,Zara,Shopping,-629.15,debit,Friday,3,1,2025,True,-14406.749999999995
+179,2025-01-03 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-147.9,debit,Friday,3,1,2025,True,-14554.649999999994
+180,2025-01-03 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-220.88,debit,Friday,3,1,2025,True,-14775.529999999993
+181,2025-01-03 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-162.3,debit,Friday,3,1,2025,True,-14937.829999999993
+182,2025-01-03 10:58:05.115834,Talise Fitness - Fitness,Talise Fitness,Fitness,-331.75,debit,Friday,3,1,2025,True,-15269.579999999993
+183,2025-01-04 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-139.57,debit,Saturday,4,1,2025,True,-15409.149999999992
+184,2025-01-04 10:58:05.115834,Parking - Transportation,Parking,Transportation,-152.34,debit,Saturday,4,1,2025,True,-15561.489999999993
+185,2025-01-05 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-88.38,debit,Sunday,5,1,2025,False,-15649.869999999992
+186,2025-01-05 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-119.33,debit,Sunday,5,1,2025,False,-15769.199999999992
+187,2025-01-06 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-149.83,debit,Monday,6,1,2025,False,-15919.029999999992
+188,2025-01-06 10:58:05.115834,Apple Music - Subscriptions,Apple Music,Subscriptions,-95.41,debit,Monday,6,1,2025,False,-16014.439999999991
+189,2025-01-06 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-156.88,debit,Monday,6,1,2025,False,-16171.31999999999
+190,2025-01-07 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-293.22,debit,Tuesday,7,1,2025,False,-16464.53999999999
+191,2025-01-07 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-193.61,debit,Tuesday,7,1,2025,False,-16658.14999999999
+192,2025-01-08 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-120.42,debit,Wednesday,8,1,2025,False,-16778.56999999999
+193,2025-01-08 10:58:05.115834,H&M - Shopping,H&M,Shopping,-644.24,debit,Wednesday,8,1,2025,False,-17422.80999999999
+194,2025-01-08 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-314.97,debit,Wednesday,8,1,2025,False,-17737.77999999999
+195,2025-01-08 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-210.13,debit,Wednesday,8,1,2025,False,-17947.909999999993
+196,2025-01-09 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-158.31,debit,Thursday,9,1,2025,False,-18106.219999999994
+197,2025-01-09 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-303.46,debit,Thursday,9,1,2025,False,-18409.679999999993
+198,2025-01-10 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-124.61,debit,Friday,10,1,2025,True,-18534.289999999994
+199,2025-01-10 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,14571.0,credit,Friday,10,1,2025,True,-3963.2899999999936
+200,2025-01-11 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-990.53,debit,Saturday,11,1,2025,True,-4953.819999999993
+201,2025-01-12 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-145.85,debit,Sunday,12,1,2025,False,-5099.669999999994
+202,2025-01-12 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-213.34,debit,Sunday,12,1,2025,False,-5313.009999999994
+203,2025-01-13 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-393.25,debit,Monday,13,1,2025,False,-5706.259999999994
+204,2025-01-13 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-257.16,debit,Monday,13,1,2025,False,-5963.419999999994
+205,2025-01-13 10:58:05.115834,du - Utilities,du,Utilities,-884.02,debit,Monday,13,1,2025,False,-6847.439999999993
+206,2025-01-14 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-90.48,debit,Tuesday,14,1,2025,False,-6937.919999999993
+207,2025-01-14 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-159.01,debit,Tuesday,14,1,2025,False,-7096.929999999993
+208,2025-01-14 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-427.28,debit,Tuesday,14,1,2025,False,-7524.209999999993
+209,2025-01-14 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-193.41,debit,Tuesday,14,1,2025,False,-7717.619999999993
+210,2025-01-16 10:58:05.115834,Uber - Transportation,Uber,Transportation,-257.18,debit,Thursday,16,1,2025,False,-7974.799999999993
+211,2025-01-16 10:58:05.115834,Apple Music - Subscriptions,Apple Music,Subscriptions,-21.11,debit,Thursday,16,1,2025,False,-7995.909999999993
+212,2025-01-17 10:58:05.115834,Careem - Transportation,Careem,Transportation,-58.25,debit,Friday,17,1,2025,True,-8054.159999999993
+213,2025-01-17 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-450.55,debit,Friday,17,1,2025,True,-8504.709999999992
+214,2025-01-18 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-114.64,debit,Saturday,18,1,2025,True,-8619.349999999991
+215,2025-01-18 10:58:05.115834,Zara - Shopping,Zara,Shopping,-914.15,debit,Saturday,18,1,2025,True,-9533.49999999999
+216,2025-01-18 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-143.73,debit,Saturday,18,1,2025,True,-9677.22999999999
+217,2025-01-19 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-231.64,debit,Sunday,19,1,2025,False,-9908.86999999999
+218,2025-01-19 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-194.08,debit,Sunday,19,1,2025,False,-10102.94999999999
+219,2025-01-20 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-109.02,debit,Monday,20,1,2025,False,-10211.96999999999
+220,2025-01-20 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-116.61,debit,Monday,20,1,2025,False,-10328.57999999999
+221,2025-01-22 10:58:05.115834,Parking - Transportation,Parking,Transportation,-12.73,debit,Wednesday,22,1,2025,False,-10341.30999999999
+222,2025-01-22 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-777.17,debit,Wednesday,22,1,2025,False,-11118.47999999999
+223,2025-01-22 10:58:05.115834,Uber - Transportation,Uber,Transportation,-190.75,debit,Wednesday,22,1,2025,False,-11309.22999999999
+224,2025-01-22 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-325.28,debit,Wednesday,22,1,2025,False,-11634.509999999991
+225,2025-01-22 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-398.93,debit,Wednesday,22,1,2025,False,-12033.439999999991
+226,2025-01-23 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-81.7,debit,Thursday,23,1,2025,False,-12115.139999999992
+227,2025-01-24 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-102.5,debit,Friday,24,1,2025,True,-12217.639999999992
+228,2025-01-25 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-169.06,debit,Saturday,25,1,2025,True,-12386.699999999992
+229,2025-01-25 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-170.6,debit,Saturday,25,1,2025,True,-12557.299999999992
+230,2025-01-26 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-197.86,debit,Sunday,26,1,2025,False,-12755.159999999993
+231,2025-01-26 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-80.13,debit,Sunday,26,1,2025,False,-12835.289999999992
+232,2025-01-26 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-173.36,debit,Sunday,26,1,2025,False,-13008.649999999992
+233,2025-01-26 10:58:05.115834,Uber - Transportation,Uber,Transportation,-191.77,debit,Sunday,26,1,2025,False,-13200.419999999993
+234,2025-01-27 10:58:05.115834,H&M - Shopping,H&M,Shopping,-240.76,debit,Monday,27,1,2025,False,-13441.179999999993
+235,2025-01-27 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-162.37,debit,Monday,27,1,2025,False,-13603.549999999994
+236,2025-01-27 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-230.51,debit,Monday,27,1,2025,False,-13834.059999999994
+237,2025-01-27 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-80.82,debit,Monday,27,1,2025,False,-13914.879999999994
+238,2025-01-27 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-187.84,debit,Monday,27,1,2025,False,-14102.719999999994
+239,2025-01-28 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-160.08,debit,Tuesday,28,1,2025,False,-14262.799999999994
+240,2025-01-28 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-259.31,debit,Tuesday,28,1,2025,False,-14522.109999999993
+241,2025-01-28 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-222.95,debit,Tuesday,28,1,2025,False,-14745.059999999994
+242,2025-01-29 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-99.51,debit,Wednesday,29,1,2025,False,-14844.569999999994
+243,2025-01-29 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-43.5,debit,Wednesday,29,1,2025,False,-14888.069999999994
+244,2025-01-30 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-65.58,debit,Thursday,30,1,2025,False,-14953.649999999994
+245,2025-01-31 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-84.78,debit,Friday,31,1,2025,True,-15038.429999999995
+246,2025-02-01 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-199.8,debit,Saturday,1,2,2025,True,-15238.229999999994
+247,2025-02-01 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-175.89,debit,Saturday,1,2,2025,True,-15414.119999999994
+248,2025-02-02 10:58:05.115834,Parking - Transportation,Parking,Transportation,-79.84,debit,Sunday,2,2,2025,False,-15493.959999999994
+249,2025-02-03 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-213.52,debit,Monday,3,2,2025,False,-15707.479999999994
+250,2025-02-04 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-457.99,debit,Tuesday,4,2,2025,False,-16165.469999999994
+251,2025-02-04 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-140.59,debit,Tuesday,4,2,2025,False,-16306.059999999994
+252,2025-02-04 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-334.75,debit,Tuesday,4,2,2025,False,-16640.809999999994
+253,2025-02-04 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-578.62,debit,Tuesday,4,2,2025,False,-17219.429999999993
+254,2025-02-05 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-244.71,debit,Wednesday,5,2,2025,False,-17464.139999999992
+255,2025-02-06 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-451.77,debit,Thursday,6,2,2025,False,-17915.909999999993
+256,2025-02-07 10:58:05.115834,Pizza Hut - Dining & Coffee [UNUSUAL],Pizza Hut,Dining & Coffee,-648.9430758782187,debit,Friday,7,2,2025,True,-18046.609999999993
+257,2025-02-07 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-352.72,debit,Friday,7,2,2025,True,-18399.329999999994
+258,2025-02-08 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,16771.0,credit,Saturday,8,2,2025,True,-1628.3299999999945
+259,2025-02-08 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-132.93,debit,Saturday,8,2,2025,True,-1761.2599999999945
+260,2025-02-08 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-146.31,debit,Saturday,8,2,2025,True,-1907.5699999999945
+261,2025-02-08 10:58:05.115834,DEWA - Utilities,DEWA,Utilities,-873.1,debit,Saturday,8,2,2025,True,-2780.6699999999946
+262,2025-02-09 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-100.37,debit,Sunday,9,2,2025,False,-2881.0399999999945
+263,2025-02-09 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-107.2,debit,Sunday,9,2,2025,False,-2988.2399999999943
+264,2025-02-09 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-251.69,debit,Sunday,9,2,2025,False,-3239.9299999999944
+265,2025-02-09 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-389.17,debit,Sunday,9,2,2025,False,-3629.0999999999945
+266,2025-02-09 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-67.33,debit,Sunday,9,2,2025,False,-3696.4299999999944
+267,2025-02-09 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-394.6,debit,Sunday,9,2,2025,False,-4091.0299999999943
+268,2025-02-10 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-66.11,debit,Monday,10,2,2025,False,-4157.139999999994
+269,2025-02-10 10:58:05.115834,Parking - Transportation,Parking,Transportation,-664.59,debit,Monday,10,2,2025,False,-4821.729999999994
+270,2025-02-10 10:58:05.115834,Yoga Studio - Fitness,Yoga Studio,Fitness,-490.18,debit,Monday,10,2,2025,False,-5311.909999999994
+271,2025-02-10 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-196.44,debit,Monday,10,2,2025,False,-5508.349999999994
+272,2025-02-11 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-554.31,debit,Tuesday,11,2,2025,False,-6062.659999999994
+273,2025-02-11 10:58:05.115834,Uber - Transportation,Uber,Transportation,-206.51,debit,Tuesday,11,2,2025,False,-6269.169999999995
+274,2025-02-12 10:58:05.115834,Uber - Transportation,Uber,Transportation,-299.25,debit,Wednesday,12,2,2025,False,-6568.419999999995
+275,2025-02-13 10:58:05.115834,Yoga Studio - Fitness,Yoga Studio,Fitness,-424.1,debit,Thursday,13,2,2025,False,-6992.519999999995
+276,2025-02-13 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-199.74,debit,Thursday,13,2,2025,False,-7192.259999999995
+277,2025-02-13 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-160.56,debit,Thursday,13,2,2025,False,-7352.819999999995
+278,2025-02-14 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-127.5,debit,Friday,14,2,2025,True,-7480.319999999995
+279,2025-02-14 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-156.53,debit,Friday,14,2,2025,True,-7636.849999999995
+280,2025-02-15 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-54.24,debit,Saturday,15,2,2025,True,-7691.089999999995
+281,2025-02-15 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-97.93,debit,Saturday,15,2,2025,True,-7789.019999999995
+282,2025-02-15 10:58:05.115834,Careem - Transportation,Careem,Transportation,-38.0,debit,Saturday,15,2,2025,True,-7827.019999999995
+283,2025-02-16 10:58:05.115834,Parking - Transportation,Parking,Transportation,-43.18,debit,Sunday,16,2,2025,False,-7870.199999999995
+284,2025-02-16 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-360.54,debit,Sunday,16,2,2025,False,-8230.739999999996
+285,2025-02-17 10:58:05.115834,Parking - Transportation,Parking,Transportation,-149.83,debit,Monday,17,2,2025,False,-8380.569999999996
+286,2025-02-17 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-61.37,debit,Monday,17,2,2025,False,-8441.939999999997
+287,2025-02-17 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-38.35,debit,Monday,17,2,2025,False,-8480.289999999997
+288,2025-02-17 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-92.88,debit,Monday,17,2,2025,False,-8573.169999999996
+289,2025-02-17 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-52.96,debit,Monday,17,2,2025,False,-8626.129999999996
+290,2025-02-17 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-73.13,debit,Monday,17,2,2025,False,-8699.259999999995
+291,2025-02-18 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-296.17,debit,Tuesday,18,2,2025,False,-8995.429999999995
+292,2025-02-19 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-190.57,debit,Wednesday,19,2,2025,False,-9185.999999999995
+293,2025-02-19 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-158.13,debit,Wednesday,19,2,2025,False,-9344.129999999994
+294,2025-02-20 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-84.77,debit,Thursday,20,2,2025,False,-9428.899999999994
+295,2025-02-20 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-158.26,debit,Thursday,20,2,2025,False,-9587.159999999994
+296,2025-02-20 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-1344.98,debit,Thursday,20,2,2025,False,-10932.139999999994
+297,2025-02-22 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-395.11,debit,Saturday,22,2,2025,True,-11327.249999999995
+298,2025-02-22 10:58:05.115834,Uber - Transportation,Uber,Transportation,-40.04,debit,Saturday,22,2,2025,True,-11367.289999999995
+299,2025-02-23 10:58:05.115834,Parking - Transportation,Parking,Transportation,-83.92,debit,Sunday,23,2,2025,False,-11451.209999999995
+300,2025-02-24 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-286.19,debit,Monday,24,2,2025,False,-11737.399999999996
+301,2025-02-24 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-254.6,debit,Monday,24,2,2025,False,-11991.999999999996
+302,2025-02-24 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-116.59,debit,Monday,24,2,2025,False,-12108.589999999997
+303,2025-02-24 10:58:05.115834,Parking - Transportation,Parking,Transportation,-282.93,debit,Monday,24,2,2025,False,-12391.519999999997
+304,2025-02-25 10:58:05.115834,Careem - Transportation,Careem,Transportation,-221.59,debit,Tuesday,25,2,2025,False,-12613.109999999997
+305,2025-02-25 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-243.21,debit,Tuesday,25,2,2025,False,-12856.319999999996
+306,2025-02-26 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-34.97,debit,Wednesday,26,2,2025,False,-12891.289999999995
+307,2025-02-26 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-626.72,debit,Wednesday,26,2,2025,False,-13518.009999999995
+308,2025-02-27 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-181.36,debit,Thursday,27,2,2025,False,-13699.369999999995
+309,2025-02-27 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-130.01,debit,Thursday,27,2,2025,False,-13829.379999999996
+310,2025-02-27 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-284.67,debit,Thursday,27,2,2025,False,-14114.049999999996
+311,2025-03-02 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-60.02,debit,Sunday,2,3,2025,False,-14174.069999999996
+312,2025-03-02 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-123.48,debit,Sunday,2,3,2025,False,-14297.549999999996
+313,2025-03-02 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-105.6,debit,Sunday,2,3,2025,False,-14403.149999999996
+314,2025-03-02 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-255.57,debit,Sunday,2,3,2025,False,-14658.719999999996
+315,2025-03-03 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-98.62,debit,Monday,3,3,2025,False,-14757.339999999997
+316,2025-03-03 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-244.09,debit,Monday,3,3,2025,False,-15001.429999999997
+317,2025-03-03 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-146.75,debit,Monday,3,3,2025,False,-15148.179999999997
+318,2025-03-04 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-66.3,debit,Tuesday,4,3,2025,False,-15214.479999999996
+319,2025-03-04 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-164.8,debit,Tuesday,4,3,2025,False,-15379.279999999995
+320,2025-03-04 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-43.61,debit,Tuesday,4,3,2025,False,-15422.889999999996
+321,2025-03-04 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-378.67,debit,Tuesday,4,3,2025,False,-15801.559999999996
+322,2025-03-04 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-149.54,debit,Tuesday,4,3,2025,False,-15951.099999999997
+323,2025-03-04 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-69.56,debit,Tuesday,4,3,2025,False,-16020.659999999996
+324,2025-03-05 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-272.39,debit,Wednesday,5,3,2025,False,-16293.049999999996
+325,2025-03-06 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-39.38,debit,Thursday,6,3,2025,False,-16332.429999999995
+326,2025-03-06 10:58:05.115834,Careem - Transportation,Careem,Transportation,-29.47,debit,Thursday,6,3,2025,False,-16361.899999999994
+327,2025-03-06 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-468.85,debit,Thursday,6,3,2025,False,-16830.749999999993
+328,2025-03-06 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-70.8,debit,Thursday,6,3,2025,False,-16901.549999999992
+329,2025-03-07 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-126.04,debit,Friday,7,3,2025,True,-17027.589999999993
+330,2025-03-07 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-277.23,debit,Friday,7,3,2025,True,-17304.819999999992
+331,2025-03-09 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-187.94,debit,Sunday,9,3,2025,False,-17492.75999999999
+332,2025-03-09 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-463.12,debit,Sunday,9,3,2025,False,-17955.87999999999
+333,2025-03-09 10:58:05.115834,Etisalat - Utilities,Etisalat,Utilities,-505.66,debit,Sunday,9,3,2025,False,-18461.53999999999
+334,2025-03-10 10:58:05.115834,Disney+ - Subscriptions,Disney+,Subscriptions,-25.77,debit,Monday,10,3,2025,False,-18487.30999999999
+335,2025-03-10 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-218.8,debit,Monday,10,3,2025,False,-18706.10999999999
+336,2025-03-10 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-171.35,debit,Monday,10,3,2025,False,-18877.45999999999
+337,2025-03-10 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,16418.0,credit,Monday,10,3,2025,False,-2459.459999999988
+338,2025-03-13 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-219.04,debit,Thursday,13,3,2025,False,-2678.499999999988
+339,2025-03-13 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-81.35,debit,Thursday,13,3,2025,False,-2759.849999999988
+340,2025-03-13 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-279.22,debit,Thursday,13,3,2025,False,-3039.069999999988
+341,2025-03-13 10:58:05.115834,Zara - Shopping,Zara,Shopping,-197.8,debit,Thursday,13,3,2025,False,-3236.869999999988
+342,2025-03-14 10:58:05.115834,Parking - Transportation,Parking,Transportation,-24.92,debit,Friday,14,3,2025,True,-3261.789999999988
+343,2025-03-15 10:58:05.115834,Uber - Transportation,Uber,Transportation,-99.57,debit,Saturday,15,3,2025,True,-3361.3599999999883
+344,2025-03-16 10:58:05.115834,Parking - Transportation,Parking,Transportation,-107.66,debit,Sunday,16,3,2025,False,-3469.019999999988
+345,2025-03-16 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-145.91,debit,Sunday,16,3,2025,False,-3614.929999999988
+346,2025-03-16 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-83.22,debit,Sunday,16,3,2025,False,-3698.149999999988
+347,2025-03-17 10:58:05.115834,Parking - Transportation,Parking,Transportation,-204.43,debit,Monday,17,3,2025,False,-3902.5799999999876
+348,2025-03-17 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-271.63,debit,Monday,17,3,2025,False,-4174.209999999987
+349,2025-03-17 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-190.99,debit,Monday,17,3,2025,False,-4365.199999999987
+350,2025-03-17 10:58:05.115834,Amazon Prime - Subscriptions,Amazon Prime,Subscriptions,-51.24,debit,Monday,17,3,2025,False,-4416.439999999987
+351,2025-03-18 10:58:05.115834,DEWA - Utilities,DEWA,Utilities,-295.38,debit,Tuesday,18,3,2025,False,-4711.819999999987
+352,2025-03-18 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-129.68,debit,Tuesday,18,3,2025,False,-4841.499999999987
+353,2025-03-19 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-98.35,debit,Wednesday,19,3,2025,False,-4939.849999999988
+354,2025-03-19 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-177.83,debit,Wednesday,19,3,2025,False,-5117.679999999988
+355,2025-03-19 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-95.78,debit,Wednesday,19,3,2025,False,-5213.459999999987
+356,2025-03-19 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-119.25,debit,Wednesday,19,3,2025,False,-5332.709999999987
+357,2025-03-20 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-43.28,debit,Thursday,20,3,2025,False,-5375.989999999987
+358,2025-03-20 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-211.03,debit,Thursday,20,3,2025,False,-5587.019999999987
+359,2025-03-20 10:58:05.115834,Parking - Transportation,Parking,Transportation,-136.93,debit,Thursday,20,3,2025,False,-5723.949999999987
+360,2025-03-20 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-406.59,debit,Thursday,20,3,2025,False,-6130.539999999987
+361,2025-03-21 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-172.88,debit,Friday,21,3,2025,True,-6303.419999999987
+362,2025-03-23 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-331.35,debit,Sunday,23,3,2025,False,-6634.769999999988
+363,2025-03-24 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-191.76,debit,Monday,24,3,2025,False,-6826.529999999988
+364,2025-03-24 10:58:05.115834,Uber - Transportation,Uber,Transportation,-219.88,debit,Monday,24,3,2025,False,-7046.409999999988
+365,2025-03-24 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-266.37,debit,Monday,24,3,2025,False,-7312.779999999988
+366,2025-03-25 10:58:05.115834,Zara - Shopping,Zara,Shopping,-847.22,debit,Tuesday,25,3,2025,False,-8159.999999999988
+367,2025-03-25 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-73.49,debit,Tuesday,25,3,2025,False,-8233.489999999989
+368,2025-03-25 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-75.99,debit,Tuesday,25,3,2025,False,-8309.479999999989
+369,2025-03-25 10:58:05.115834,Careem - Transportation,Careem,Transportation,-65.68,debit,Tuesday,25,3,2025,False,-8375.159999999989
+370,2025-03-26 10:58:05.115834,H&M - Shopping,H&M,Shopping,-718.89,debit,Wednesday,26,3,2025,False,-9094.049999999988
+371,2025-03-26 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-202.85,debit,Wednesday,26,3,2025,False,-9296.899999999989
+372,2025-03-28 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-382.39,debit,Friday,28,3,2025,True,-9679.289999999988
+373,2025-03-28 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-181.02,debit,Friday,28,3,2025,True,-9860.309999999989
+374,2025-03-28 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-450.78,debit,Friday,28,3,2025,True,-10311.08999999999
+375,2025-03-28 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-191.55,debit,Friday,28,3,2025,True,-10502.639999999989
+376,2025-03-29 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-280.99,debit,Saturday,29,3,2025,True,-10783.629999999988
+377,2025-03-29 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-163.92,debit,Saturday,29,3,2025,True,-10947.549999999988
+378,2025-03-29 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-155.58,debit,Saturday,29,3,2025,True,-11103.129999999988
+379,2025-03-29 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-189.98,debit,Saturday,29,3,2025,True,-11293.109999999988
+380,2025-03-29 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-233.26,debit,Saturday,29,3,2025,True,-11526.369999999988
+381,2025-03-29 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-117.55,debit,Saturday,29,3,2025,True,-11643.919999999987
+382,2025-03-30 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-131.81,debit,Sunday,30,3,2025,False,-11775.729999999987
+383,2025-03-31 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-127.81,debit,Monday,31,3,2025,False,-11903.539999999986
+384,2025-03-31 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-252.18,debit,Monday,31,3,2025,False,-12155.719999999987
+385,2025-04-02 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-157.16,debit,Wednesday,2,4,2025,False,-12312.879999999986
+386,2025-04-02 10:58:05.115834,Parking - Transportation,Parking,Transportation,-51.01,debit,Wednesday,2,4,2025,False,-12363.889999999987
+387,2025-04-03 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-389.59,debit,Thursday,3,4,2025,False,-12753.479999999987
+388,2025-04-03 10:58:05.115834,Aster Clinic - Healthcare,Aster Clinic,Healthcare,-1259.46,debit,Thursday,3,4,2025,False,-14012.939999999988
+389,2025-04-04 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-132.69,debit,Friday,4,4,2025,True,-14145.629999999988
+390,2025-04-04 10:58:05.115834,Parking - Transportation,Parking,Transportation,-202.02,debit,Friday,4,4,2025,True,-14347.649999999989
+391,2025-04-04 10:58:05.115834,Apple Music - Subscriptions,Apple Music,Subscriptions,-98.48,debit,Friday,4,4,2025,True,-14446.129999999988
+392,2025-04-04 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-74.48,debit,Friday,4,4,2025,True,-14520.609999999988
+393,2025-04-04 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-128.78,debit,Friday,4,4,2025,True,-14649.389999999989
+394,2025-04-05 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-24.69,debit,Saturday,5,4,2025,True,-14674.079999999989
+395,2025-04-05 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-492.69,debit,Saturday,5,4,2025,True,-15166.76999999999
+396,2025-04-06 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-99.78,debit,Sunday,6,4,2025,False,-15266.54999999999
+397,2025-04-06 10:58:05.115834,Gold's Gym - Fitness,Gold's Gym,Fitness,-532.46,debit,Sunday,6,4,2025,False,-15799.009999999991
+398,2025-04-06 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-631.19,debit,Sunday,6,4,2025,False,-16430.19999999999
+399,2025-04-07 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-127.55,debit,Monday,7,4,2025,False,-16557.74999999999
+400,2025-04-09 10:58:05.115834,H&M - Shopping,H&M,Shopping,-180.72,debit,Wednesday,9,4,2025,False,-16738.46999999999
+401,2025-04-09 10:58:05.115834,Uber - Transportation,Uber,Transportation,-245.82,debit,Wednesday,9,4,2025,False,-16984.28999999999
+402,2025-04-09 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-454.87,debit,Wednesday,9,4,2025,False,-17439.15999999999
+403,2025-04-10 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-422.23,debit,Thursday,10,4,2025,False,-17861.38999999999
+404,2025-04-10 10:58:05.115834,Parking - Transportation,Parking,Transportation,-299.18,debit,Thursday,10,4,2025,False,-18160.56999999999
+405,2025-04-10 10:58:05.115834,Parking - Transportation,Parking,Transportation,-233.62,debit,Thursday,10,4,2025,False,-18394.189999999988
+406,2025-04-12 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-98.2,debit,Saturday,12,4,2025,True,-18492.38999999999
+407,2025-04-12 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,14130.0,credit,Saturday,12,4,2025,True,-4362.3899999999885
+408,2025-04-13 10:58:05.115834,Zara - Shopping,Zara,Shopping,-725.83,debit,Sunday,13,4,2025,False,-5088.219999999988
+409,2025-04-13 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-133.95,debit,Sunday,13,4,2025,False,-5222.169999999988
+410,2025-04-13 10:58:05.115834,H&M - Shopping,H&M,Shopping,-825.87,debit,Sunday,13,4,2025,False,-6048.039999999988
+411,2025-04-13 10:58:05.115834,Zara - Shopping,Zara,Shopping,-444.15,debit,Sunday,13,4,2025,False,-6492.189999999988
+412,2025-04-13 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-86.67,debit,Sunday,13,4,2025,False,-6578.859999999988
+413,2025-04-13 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-263.25,debit,Sunday,13,4,2025,False,-6842.109999999988
+414,2025-04-14 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-172.0,debit,Monday,14,4,2025,False,-7014.109999999988
+415,2025-04-15 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-43.39,debit,Tuesday,15,4,2025,False,-7057.499999999988
+416,2025-04-15 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-68.17,debit,Tuesday,15,4,2025,False,-7125.669999999988
+417,2025-04-16 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-137.27,debit,Wednesday,16,4,2025,False,-7262.939999999989
+418,2025-04-16 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-62.94,debit,Wednesday,16,4,2025,False,-7325.879999999988
+419,2025-04-17 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-95.84,debit,Thursday,17,4,2025,False,-7421.719999999988
+420,2025-04-17 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-151.1,debit,Thursday,17,4,2025,False,-7572.819999999989
+421,2025-04-18 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-682.5,debit,Friday,18,4,2025,True,-8255.319999999989
+422,2025-04-18 10:58:05.115834,Uber - Transportation,Uber,Transportation,-57.75,debit,Friday,18,4,2025,True,-8313.069999999989
+423,2025-04-19 10:58:05.115834,Uber - Transportation,Uber,Transportation,-157.54,debit,Saturday,19,4,2025,True,-8470.60999999999
+424,2025-04-19 10:58:05.115834,Parking - Transportation,Parking,Transportation,-215.77,debit,Saturday,19,4,2025,True,-8686.37999999999
+425,2025-04-20 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-78.65,debit,Sunday,20,4,2025,False,-8765.02999999999
+426,2025-04-20 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-82.56,debit,Sunday,20,4,2025,False,-8847.58999999999
+427,2025-04-22 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-328.48,debit,Tuesday,22,4,2025,False,-9176.069999999989
+428,2025-04-22 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-314.34,debit,Tuesday,22,4,2025,False,-9490.409999999989
+429,2025-04-23 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-189.38,debit,Wednesday,23,4,2025,False,-9679.789999999988
+430,2025-04-23 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-758.28,debit,Wednesday,23,4,2025,False,-10438.069999999989
+431,2025-04-23 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-231.43,debit,Wednesday,23,4,2025,False,-10669.499999999989
+432,2025-04-24 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-65.52,debit,Thursday,24,4,2025,False,-10735.01999999999
+433,2025-04-24 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-353.35,debit,Thursday,24,4,2025,False,-11088.36999999999
+434,2025-04-25 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-159.07,debit,Friday,25,4,2025,True,-11247.43999999999
+435,2025-04-25 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-450.62,debit,Friday,25,4,2025,True,-11698.05999999999
+436,2025-04-25 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-264.61,debit,Friday,25,4,2025,True,-11962.669999999991
+437,2025-04-25 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-175.96,debit,Friday,25,4,2025,True,-12138.62999999999
+438,2025-04-25 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-73.16,debit,Friday,25,4,2025,True,-12211.78999999999
+439,2025-04-25 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-163.2,debit,Friday,25,4,2025,True,-12374.98999999999
+440,2025-04-25 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-174.23,debit,Friday,25,4,2025,True,-12549.21999999999
+441,2025-04-25 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-199.66,debit,Friday,25,4,2025,True,-12748.87999999999
+442,2025-04-25 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-170.68,debit,Friday,25,4,2025,True,-12919.55999999999
+443,2025-04-25 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-22.84,debit,Friday,25,4,2025,True,-12942.39999999999
+444,2025-04-26 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-36.79,debit,Saturday,26,4,2025,True,-12979.189999999991
+445,2025-04-27 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-31.39,debit,Sunday,27,4,2025,False,-13010.57999999999
+446,2025-04-27 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-657.04,debit,Sunday,27,4,2025,False,-13667.619999999992
+447,2025-04-27 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-445.2,debit,Sunday,27,4,2025,False,-14112.819999999992
+448,2025-04-28 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-37.21,debit,Monday,28,4,2025,False,-14150.029999999992
+449,2025-04-28 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-38.35,debit,Monday,28,4,2025,False,-14188.379999999992
+450,2025-04-28 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-77.72,debit,Monday,28,4,2025,False,-14266.099999999991
+451,2025-04-28 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-485.68,debit,Monday,28,4,2025,False,-14751.779999999992
+452,2025-04-29 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-62.82,debit,Tuesday,29,4,2025,False,-14814.599999999991
+453,2025-04-29 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-243.82,debit,Tuesday,29,4,2025,False,-15058.419999999991
+454,2025-04-29 10:58:05.115834,H&M - Shopping,H&M,Shopping,-814.45,debit,Tuesday,29,4,2025,False,-15872.869999999992
+455,2025-05-01 10:58:05.115834,Zara - Shopping,Zara,Shopping,-353.16,debit,Thursday,1,5,2025,False,-16226.029999999992
+456,2025-05-01 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-339.19,debit,Thursday,1,5,2025,False,-16565.21999999999
+457,2025-05-01 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-94.21,debit,Thursday,1,5,2025,False,-16659.42999999999
+458,2025-05-02 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-102.47,debit,Friday,2,5,2025,True,-16761.89999999999
+459,2025-05-03 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-93.83,debit,Saturday,3,5,2025,True,-16855.729999999992
+460,2025-05-04 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-62.77,debit,Sunday,4,5,2025,False,-16918.499999999993
+461,2025-05-04 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-82.0,debit,Sunday,4,5,2025,False,-17000.499999999993
+462,2025-05-04 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-325.19,debit,Sunday,4,5,2025,False,-17325.68999999999
+463,2025-05-04 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-140.49,debit,Sunday,4,5,2025,False,-17466.179999999993
+464,2025-05-04 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-320.03,debit,Sunday,4,5,2025,False,-17786.209999999992
+465,2025-05-06 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-271.11,debit,Tuesday,6,5,2025,False,-18057.319999999992
+466,2025-05-06 10:58:05.115834,Careem - Transportation,Careem,Transportation,-299.21,debit,Tuesday,6,5,2025,False,-18356.52999999999
+467,2025-05-06 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-54.7,debit,Tuesday,6,5,2025,False,-18411.229999999992
+468,2025-05-06 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-82.96,debit,Tuesday,6,5,2025,False,-18494.18999999999
+469,2025-05-06 10:58:05.115834,Parking - Transportation,Parking,Transportation,-148.81,debit,Tuesday,6,5,2025,False,-18642.999999999993
+470,2025-05-07 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-188.68,debit,Wednesday,7,5,2025,False,-18831.679999999993
+471,2025-05-08 10:58:05.115834,Gold's Gym - Fitness,Gold's Gym,Fitness,-349.48,debit,Thursday,8,5,2025,False,-19181.159999999993
+472,2025-05-08 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-154.39,debit,Thursday,8,5,2025,False,-19335.549999999992
+473,2025-05-09 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-28.88,debit,Friday,9,5,2025,True,-19364.429999999993
+474,2025-05-09 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,14383.0,credit,Friday,9,5,2025,True,-4981.429999999993
+475,2025-05-09 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-360.03,debit,Friday,9,5,2025,True,-5341.459999999993
+476,2025-05-10 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-340.63,debit,Saturday,10,5,2025,True,-5682.089999999993
+477,2025-05-10 10:58:05.115834,du - Utilities,du,Utilities,-573.5,debit,Saturday,10,5,2025,True,-6255.589999999993
+478,2025-05-10 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-115.91,debit,Saturday,10,5,2025,True,-6371.499999999993
+479,2025-05-11 10:58:05.115834,Uber - Transportation,Uber,Transportation,-203.67,debit,Sunday,11,5,2025,False,-6575.169999999993
+480,2025-05-11 10:58:05.115834,Boots Pharmacy - Healthcare,Boots Pharmacy,Healthcare,-273.79,debit,Sunday,11,5,2025,False,-6848.959999999993
+481,2025-05-12 10:58:05.115834,Disney+ - Subscriptions,Disney+,Subscriptions,-113.2,debit,Monday,12,5,2025,False,-6962.159999999993
+482,2025-05-14 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-73.03,debit,Wednesday,14,5,2025,False,-7035.189999999992
+483,2025-05-15 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-190.42,debit,Thursday,15,5,2025,False,-7225.609999999992
+484,2025-05-15 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-40.55,debit,Thursday,15,5,2025,False,-7266.159999999993
+485,2025-05-17 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-204.37,debit,Saturday,17,5,2025,True,-7470.5299999999925
+486,2025-05-18 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-289.71,debit,Sunday,18,5,2025,False,-7760.2399999999925
+487,2025-05-18 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-304.63,debit,Sunday,18,5,2025,False,-8064.869999999993
+488,2025-05-19 10:58:05.115834,Etisalat - Utilities,Etisalat,Utilities,-390.98,debit,Monday,19,5,2025,False,-8455.849999999993
+489,2025-05-19 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-131.37,debit,Monday,19,5,2025,False,-8587.219999999994
+490,2025-05-19 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-183.74,debit,Monday,19,5,2025,False,-8770.959999999994
+491,2025-05-20 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-250.11,debit,Tuesday,20,5,2025,False,-9021.069999999994
+492,2025-05-20 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-488.3,debit,Tuesday,20,5,2025,False,-9509.369999999994
+493,2025-05-21 10:58:05.115834,Parking - Transportation,Parking,Transportation,-77.52,debit,Wednesday,21,5,2025,False,-9586.889999999994
+494,2025-05-22 10:58:05.115834,Yoga Studio - Fitness,Yoga Studio,Fitness,-270.66,debit,Thursday,22,5,2025,False,-9857.549999999994
+495,2025-05-22 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-159.84,debit,Thursday,22,5,2025,False,-10017.389999999994
+496,2025-05-23 10:58:05.115834,Amazon Prime - Subscriptions,Amazon Prime,Subscriptions,-40.92,debit,Friday,23,5,2025,True,-10058.309999999994
+497,2025-05-23 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-222.85,debit,Friday,23,5,2025,True,-10281.159999999994
+498,2025-05-23 10:58:05.115834,Uber - Transportation,Uber,Transportation,-214.42,debit,Friday,23,5,2025,True,-10495.579999999994
+499,2025-05-23 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-372.41,debit,Friday,23,5,2025,True,-10867.989999999994
+500,2025-05-23 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-93.41,debit,Friday,23,5,2025,True,-10961.399999999994
+501,2025-05-23 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-259.13,debit,Friday,23,5,2025,True,-11220.529999999993
+502,2025-05-24 10:58:05.115834,Parking - Transportation,Parking,Transportation,-147.0,debit,Saturday,24,5,2025,True,-11367.529999999993
+503,2025-05-24 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-103.5,debit,Saturday,24,5,2025,True,-11471.029999999993
+504,2025-05-24 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-87.7,debit,Saturday,24,5,2025,True,-11558.729999999994
+505,2025-05-25 10:58:05.115834,Careem - Transportation,Careem,Transportation,-200.23,debit,Sunday,25,5,2025,False,-11758.959999999994
+506,2025-05-25 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-119.67,debit,Sunday,25,5,2025,False,-11878.629999999994
+507,2025-05-25 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-190.2,debit,Sunday,25,5,2025,False,-12068.829999999994
+508,2025-05-25 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-157.82,debit,Sunday,25,5,2025,False,-12226.649999999994
+509,2025-05-26 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-328.21,debit,Monday,26,5,2025,False,-12554.859999999993
+510,2025-05-27 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-71.92,debit,Tuesday,27,5,2025,False,-12626.779999999993
+511,2025-05-27 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-254.4,debit,Tuesday,27,5,2025,False,-12881.179999999993
+512,2025-05-29 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-83.15,debit,Thursday,29,5,2025,False,-12964.329999999993
+513,2025-05-29 10:58:05.115834,Uber - Transportation,Uber,Transportation,-149.14,debit,Thursday,29,5,2025,False,-13113.469999999992
+514,2025-05-30 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-65.86,debit,Friday,30,5,2025,True,-13179.329999999993
+515,2025-05-30 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-105.62,debit,Friday,30,5,2025,True,-13284.949999999993
+516,2025-05-31 10:58:05.115834,Uber - Transportation,Uber,Transportation,-75.21,debit,Saturday,31,5,2025,True,-13360.159999999993
+517,2025-05-31 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-519.22,debit,Saturday,31,5,2025,True,-13879.379999999992
+518,2025-05-31 10:58:05.115834,Parking - Transportation,Parking,Transportation,-88.77,debit,Saturday,31,5,2025,True,-13968.149999999992
+519,2025-06-01 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-148.46,debit,Sunday,1,6,2025,False,-14116.609999999991
+520,2025-06-02 10:58:05.115834,Careem - Transportation,Careem,Transportation,-65.76,debit,Monday,2,6,2025,False,-14182.369999999992
+521,2025-06-03 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-139.14,debit,Tuesday,3,6,2025,False,-14321.509999999991
+522,2025-06-04 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-241.14,debit,Wednesday,4,6,2025,False,-14562.64999999999
+523,2025-06-04 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-120.11,debit,Wednesday,4,6,2025,False,-14682.759999999991
+524,2025-06-04 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-91.58,debit,Wednesday,4,6,2025,False,-14774.339999999991
+525,2025-06-05 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-90.92,debit,Thursday,5,6,2025,False,-14865.259999999991
+526,2025-06-05 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-109.86,debit,Thursday,5,6,2025,False,-14975.119999999992
+527,2025-06-06 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-190.95,debit,Friday,6,6,2025,True,-15166.069999999992
+528,2025-06-07 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-147.9,debit,Saturday,7,6,2025,True,-15313.969999999992
+529,2025-06-08 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-111.08,debit,Sunday,8,6,2025,False,-15425.049999999992
+530,2025-06-08 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-117.57,debit,Sunday,8,6,2025,False,-15542.619999999992
+531,2025-06-09 10:58:05.115834,Uber - Transportation,Uber,Transportation,-286.84,debit,Monday,9,6,2025,False,-15829.459999999992
+532,2025-06-09 10:58:05.115834,Internet Bill - Utilities,Internet Bill,Utilities,-880.96,debit,Monday,9,6,2025,False,-16710.41999999999
+533,2025-06-09 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-124.84,debit,Monday,9,6,2025,False,-16835.25999999999
+534,2025-06-09 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-42.34,debit,Monday,9,6,2025,False,-16877.59999999999
+535,2025-06-09 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,14952.0,credit,Monday,9,6,2025,False,-1925.5999999999913
+536,2025-06-10 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-131.41,debit,Tuesday,10,6,2025,False,-2057.009999999991
+537,2025-06-10 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-459.22,debit,Tuesday,10,6,2025,False,-2516.2299999999914
+538,2025-06-10 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-914.18,debit,Tuesday,10,6,2025,False,-3430.409999999991
+539,2025-06-10 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-494.62,debit,Tuesday,10,6,2025,False,-3925.029999999991
+540,2025-06-11 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-40.86,debit,Wednesday,11,6,2025,False,-3965.8899999999912
+541,2025-06-11 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-1095.54,debit,Wednesday,11,6,2025,False,-5061.429999999991
+542,2025-06-12 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-176.47,debit,Thursday,12,6,2025,False,-5237.899999999991
+543,2025-06-12 10:58:05.115834,Parking - Transportation,Parking,Transportation,-89.3,debit,Thursday,12,6,2025,False,-5327.199999999992
+544,2025-06-12 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-320.33,debit,Thursday,12,6,2025,False,-5647.529999999992
+545,2025-06-13 10:58:05.115834,Amazon Prime - Subscriptions,Amazon Prime,Subscriptions,-62.35,debit,Friday,13,6,2025,True,-5709.879999999992
+546,2025-06-14 10:58:05.115834,Uber - Transportation,Uber,Transportation,-119.38,debit,Saturday,14,6,2025,True,-5829.259999999992
+547,2025-06-14 10:58:05.115834,Yoga Studio - Fitness,Yoga Studio,Fitness,-808.39,debit,Saturday,14,6,2025,True,-6637.649999999992
+548,2025-06-14 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-196.39,debit,Saturday,14,6,2025,True,-6834.039999999993
+549,2025-06-14 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-212.89,debit,Saturday,14,6,2025,True,-7046.929999999993
+550,2025-06-14 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-129.68,debit,Saturday,14,6,2025,True,-7176.609999999993
+551,2025-06-14 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-64.57,debit,Saturday,14,6,2025,True,-7241.179999999993
+552,2025-06-15 10:58:05.115834,Etisalat - Utilities,Etisalat,Utilities,-203.66,debit,Sunday,15,6,2025,False,-7444.839999999993
+553,2025-06-15 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-158.97,debit,Sunday,15,6,2025,False,-7603.809999999993
+554,2025-06-16 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-53.0,debit,Monday,16,6,2025,False,-7656.809999999993
+555,2025-06-16 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-198.68,debit,Monday,16,6,2025,False,-7855.489999999993
+556,2025-06-16 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-387.97,debit,Monday,16,6,2025,False,-8243.459999999994
+557,2025-06-17 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-103.61,debit,Tuesday,17,6,2025,False,-8347.069999999994
+558,2025-06-17 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-75.7,debit,Tuesday,17,6,2025,False,-8422.769999999995
+559,2025-06-17 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-196.06,debit,Tuesday,17,6,2025,False,-8618.829999999994
+560,2025-06-18 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-147.32,debit,Wednesday,18,6,2025,False,-8766.149999999994
+561,2025-06-18 10:58:05.115834,H&M - Shopping,H&M,Shopping,-734.3,debit,Wednesday,18,6,2025,False,-9500.449999999993
+562,2025-06-19 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-418.61,debit,Thursday,19,6,2025,False,-9919.059999999994
+563,2025-06-19 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-50.64,debit,Thursday,19,6,2025,False,-9969.699999999993
+564,2025-06-19 10:58:05.115834,Tim Hortons - Dining & Coffee [UNUSUAL],Tim Hortons,Dining & Coffee,-1576.8697420998242,debit,Thursday,19,6,2025,False,-10308.029999999993
+565,2025-06-19 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-128.18,debit,Thursday,19,6,2025,False,-10436.209999999994
+566,2025-06-20 10:58:05.115834,Parking - Transportation,Parking,Transportation,-177.07,debit,Friday,20,6,2025,True,-10613.279999999993
+567,2025-06-20 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-23.18,debit,Friday,20,6,2025,True,-10636.459999999994
+568,2025-06-20 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-100.22,debit,Friday,20,6,2025,True,-10736.679999999993
+569,2025-06-21 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-968.18,debit,Saturday,21,6,2025,True,-11704.859999999993
+570,2025-06-21 10:58:05.115834,Spotify - Entertainment [UNUSUAL],Spotify,Entertainment,-888.8334190076032,debit,Saturday,21,6,2025,True,-11975.879999999994
+571,2025-06-22 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-265.12,debit,Sunday,22,6,2025,False,-12240.999999999995
+572,2025-06-22 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-48.3,debit,Sunday,22,6,2025,False,-12289.299999999994
+573,2025-06-22 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-129.55,debit,Sunday,22,6,2025,False,-12418.849999999993
+574,2025-06-22 10:58:05.115834,Amazon Prime - Subscriptions,Amazon Prime,Subscriptions,-60.18,debit,Sunday,22,6,2025,False,-12479.029999999993
+575,2025-06-22 10:58:05.115834,Parking - Transportation,Parking,Transportation,-51.86,debit,Sunday,22,6,2025,False,-12530.889999999994
+576,2025-06-23 10:58:05.115834,H&M - Shopping,H&M,Shopping,-410.85,debit,Monday,23,6,2025,False,-12941.739999999994
+577,2025-06-23 10:58:05.115834,Parking - Transportation,Parking,Transportation,-32.93,debit,Monday,23,6,2025,False,-12974.669999999995
+578,2025-06-24 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-165.33,debit,Tuesday,24,6,2025,False,-13139.999999999995
+579,2025-06-24 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-371.04,debit,Tuesday,24,6,2025,False,-13511.039999999995
+580,2025-06-25 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-280.82,debit,Wednesday,25,6,2025,False,-13791.859999999995
+581,2025-06-25 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-289.48,debit,Wednesday,25,6,2025,False,-14081.339999999995
+582,2025-06-25 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-29.85,debit,Wednesday,25,6,2025,False,-14111.189999999995
+583,2025-06-26 10:58:05.115834,Uber - Transportation,Uber,Transportation,-89.79,debit,Thursday,26,6,2025,False,-14200.979999999996
+584,2025-06-26 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-153.73,debit,Thursday,26,6,2025,False,-14354.709999999995
+585,2025-06-26 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-119.32,debit,Thursday,26,6,2025,False,-14474.029999999995
+586,2025-06-27 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-139.32,debit,Friday,27,6,2025,True,-14613.349999999995
+587,2025-06-28 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-209.82,debit,Saturday,28,6,2025,True,-14823.169999999995
+588,2025-06-28 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-671.88,debit,Saturday,28,6,2025,True,-15495.049999999994
+589,2025-06-28 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-330.7,debit,Saturday,28,6,2025,True,-15825.749999999995
+590,2025-06-29 10:58:05.115834,Zara - Shopping,Zara,Shopping,-1963.62,debit,Sunday,29,6,2025,False,-17789.369999999995
+591,2025-06-29 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-122.64,debit,Sunday,29,6,2025,False,-17912.009999999995
+592,2025-07-01 10:58:05.115834,Parking - Transportation,Parking,Transportation,-274.36,debit,Tuesday,1,7,2025,False,-18186.369999999995
+593,2025-07-01 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-446.7,debit,Tuesday,1,7,2025,False,-18633.069999999996
+594,2025-07-02 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-124.63,debit,Wednesday,2,7,2025,False,-18757.699999999997
+595,2025-07-02 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-195.55,debit,Wednesday,2,7,2025,False,-18953.249999999996
+596,2025-07-03 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-134.49,debit,Thursday,3,7,2025,False,-19087.739999999998
+597,2025-07-03 10:58:05.115834,Parking - Transportation,Parking,Transportation,-120.53,debit,Thursday,3,7,2025,False,-19208.269999999997
+598,2025-07-04 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-148.81,debit,Friday,4,7,2025,True,-19357.079999999998
+599,2025-07-04 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-373.09,debit,Friday,4,7,2025,True,-19730.17
+600,2025-07-05 10:58:05.115834,Careem - Transportation,Careem,Transportation,-128.4,debit,Saturday,5,7,2025,True,-19858.57
+601,2025-07-06 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-381.03,debit,Sunday,6,7,2025,False,-20239.6
+602,2025-07-06 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-93.46,debit,Sunday,6,7,2025,False,-20333.059999999998
+603,2025-07-06 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-37.62,debit,Sunday,6,7,2025,False,-20370.679999999997
+604,2025-07-07 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-288.12,debit,Monday,7,7,2025,False,-20658.799999999996
+605,2025-07-07 10:58:05.115834,Parking - Transportation,Parking,Transportation,-247.33,debit,Monday,7,7,2025,False,-20906.129999999997
+606,2025-07-07 10:58:05.115834,Aster Clinic - Healthcare,Aster Clinic,Healthcare,-388.67,debit,Monday,7,7,2025,False,-21294.799999999996
+607,2025-07-07 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-196.02,debit,Monday,7,7,2025,False,-21490.819999999996
+608,2025-07-07 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-291.6,debit,Monday,7,7,2025,False,-21782.419999999995
+609,2025-07-08 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-233.93,debit,Tuesday,8,7,2025,False,-22016.349999999995
+610,2025-07-08 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,16298.0,credit,Tuesday,8,7,2025,False,-5718.349999999995
+611,2025-07-09 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-152.97,debit,Wednesday,9,7,2025,False,-5871.319999999995
+612,2025-07-09 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-366.01,debit,Wednesday,9,7,2025,False,-6237.329999999995
+613,2025-07-10 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-39.6,debit,Thursday,10,7,2025,False,-6276.929999999996
+614,2025-07-11 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-97.98,debit,Friday,11,7,2025,True,-6374.909999999995
+615,2025-07-11 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-295.85,debit,Friday,11,7,2025,True,-6670.759999999996
+616,2025-07-12 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-356.94,debit,Saturday,12,7,2025,True,-7027.699999999995
+617,2025-07-12 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-197.44,debit,Saturday,12,7,2025,True,-7225.139999999995
+618,2025-07-12 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-990.81,debit,Saturday,12,7,2025,True,-8215.949999999995
+619,2025-07-13 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-91.55,debit,Sunday,13,7,2025,False,-8307.499999999995
+620,2025-07-14 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-95.86,debit,Monday,14,7,2025,False,-8403.359999999995
+621,2025-07-14 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-375.07,debit,Monday,14,7,2025,False,-8778.429999999995
+622,2025-07-15 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-94.73,debit,Tuesday,15,7,2025,False,-8873.159999999994
+623,2025-07-16 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-454.75,debit,Wednesday,16,7,2025,False,-9327.909999999994
+624,2025-07-17 10:58:05.115834,Life Pharmacy - Healthcare,Life Pharmacy,Healthcare,-318.32,debit,Thursday,17,7,2025,False,-9646.229999999994
+625,2025-07-19 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-299.21,debit,Saturday,19,7,2025,True,-9945.439999999993
+626,2025-07-19 10:58:05.115834,Careem - Transportation,Careem,Transportation,-41.02,debit,Saturday,19,7,2025,True,-9986.459999999994
+627,2025-07-19 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-234.26,debit,Saturday,19,7,2025,True,-10220.719999999994
+628,2025-07-20 10:58:05.115834,Parking - Transportation,Parking,Transportation,-191.26,debit,Sunday,20,7,2025,False,-10411.979999999994
+629,2025-07-20 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-28.6,debit,Sunday,20,7,2025,False,-10440.579999999994
+630,2025-07-20 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-365.45,debit,Sunday,20,7,2025,False,-10806.029999999995
+631,2025-07-21 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-77.66,debit,Monday,21,7,2025,False,-10883.689999999995
+632,2025-07-22 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-148.76,debit,Tuesday,22,7,2025,False,-11032.449999999995
+633,2025-07-22 10:58:05.115834,Parking - Transportation,Parking,Transportation,-211.54,debit,Tuesday,22,7,2025,False,-11243.989999999996
+634,2025-07-22 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-278.81,debit,Tuesday,22,7,2025,False,-11522.799999999996
+635,2025-07-23 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-284.71,debit,Wednesday,23,7,2025,False,-11807.509999999995
+636,2025-07-23 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-290.08,debit,Wednesday,23,7,2025,False,-12097.589999999995
+637,2025-07-23 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-157.27,debit,Wednesday,23,7,2025,False,-12254.859999999995
+638,2025-07-23 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-289.73,debit,Wednesday,23,7,2025,False,-12544.589999999995
+639,2025-07-24 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-309.1,debit,Thursday,24,7,2025,False,-12853.689999999995
+640,2025-07-25 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-49.36,debit,Friday,25,7,2025,True,-12903.049999999996
+641,2025-07-25 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-70.37,debit,Friday,25,7,2025,True,-12973.419999999996
+642,2025-07-25 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-40.89,debit,Friday,25,7,2025,True,-13014.309999999996
+643,2025-07-25 10:58:05.115834,Uber - Transportation,Uber,Transportation,-254.07,debit,Friday,25,7,2025,True,-13268.379999999996
+644,2025-07-25 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-20.48,debit,Friday,25,7,2025,True,-13288.859999999995
+645,2025-07-25 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-157.85,debit,Friday,25,7,2025,True,-13446.709999999995
+646,2025-07-25 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-50.26,debit,Friday,25,7,2025,True,-13496.969999999996
+647,2025-07-25 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-160.02,debit,Friday,25,7,2025,True,-13656.989999999996
+648,2025-07-25 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-199.66,debit,Friday,25,7,2025,True,-13856.649999999996
+649,2025-07-26 10:58:05.115834,Aster Clinic - Healthcare,Aster Clinic,Healthcare,-181.25,debit,Saturday,26,7,2025,True,-14037.899999999996
+650,2025-07-26 10:58:05.115834,Uber - Transportation,Uber,Transportation,-263.51,debit,Saturday,26,7,2025,True,-14301.409999999996
+651,2025-07-26 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-64.76,debit,Saturday,26,7,2025,True,-14366.169999999996
+652,2025-07-27 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-135.12,debit,Sunday,27,7,2025,False,-14501.289999999997
+653,2025-07-27 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-155.85,debit,Sunday,27,7,2025,False,-14657.139999999998
+654,2025-07-27 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-57.21,debit,Sunday,27,7,2025,False,-14714.349999999997
+655,2025-07-28 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-275.72,debit,Monday,28,7,2025,False,-14990.069999999996
+656,2025-07-28 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-28.35,debit,Monday,28,7,2025,False,-15018.419999999996
+657,2025-07-28 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-218.38,debit,Monday,28,7,2025,False,-15236.799999999996
+658,2025-07-29 10:58:05.115834,Internet Bill - Utilities,Internet Bill,Utilities,-753.97,debit,Tuesday,29,7,2025,False,-15990.769999999995
+659,2025-07-29 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-70.07,debit,Tuesday,29,7,2025,False,-16060.839999999995
+660,2025-07-30 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-116.4,debit,Wednesday,30,7,2025,False,-16177.239999999994
+661,2025-07-30 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-412.04,debit,Wednesday,30,7,2025,False,-16589.279999999995
+662,2025-07-31 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-140.25,debit,Thursday,31,7,2025,False,-16729.529999999995
+663,2025-07-31 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-104.51,debit,Thursday,31,7,2025,False,-16834.039999999994
+664,2025-07-31 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-154.17,debit,Thursday,31,7,2025,False,-16988.209999999992
+665,2025-07-31 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-144.88,debit,Thursday,31,7,2025,False,-17133.089999999993
+666,2025-08-01 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-160.12,debit,Friday,1,8,2025,True,-17293.209999999992
+667,2025-08-02 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-92.08,debit,Saturday,2,8,2025,True,-17385.289999999994
+668,2025-08-03 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-429.64,debit,Sunday,3,8,2025,False,-17814.929999999993
+669,2025-08-03 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-364.76,debit,Sunday,3,8,2025,False,-18179.68999999999
+670,2025-08-04 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-137.15,debit,Monday,4,8,2025,False,-18316.839999999993
+671,2025-08-05 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-107.65,debit,Tuesday,5,8,2025,False,-18424.489999999994
+672,2025-08-06 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-547.92,debit,Wednesday,6,8,2025,False,-18972.409999999993
+673,2025-08-06 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-17.81,debit,Wednesday,6,8,2025,False,-18990.219999999994
+674,2025-08-06 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-82.73,debit,Wednesday,6,8,2025,False,-19072.949999999993
+675,2025-08-06 10:58:05.115834,H&M - Shopping,H&M,Shopping,-674.72,debit,Wednesday,6,8,2025,False,-19747.669999999995
+676,2025-08-07 10:58:05.115834,Careem - Transportation,Careem,Transportation,-115.85,debit,Thursday,7,8,2025,False,-19863.519999999993
+677,2025-08-07 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-259.42,debit,Thursday,7,8,2025,False,-20122.93999999999
+678,2025-08-07 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-144.21,debit,Thursday,7,8,2025,False,-20267.14999999999
+679,2025-08-08 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-346.3,debit,Friday,8,8,2025,True,-20613.44999999999
+680,2025-08-08 10:58:05.115834,Parking - Transportation,Parking,Transportation,-292.53,debit,Friday,8,8,2025,True,-20905.97999999999
+681,2025-08-08 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,16932.0,credit,Friday,8,8,2025,True,-3973.9799999999886
+682,2025-08-09 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-363.18,debit,Saturday,9,8,2025,True,-4337.159999999989
+683,2025-08-09 10:58:05.115834,Uber - Transportation,Uber,Transportation,-137.66,debit,Saturday,9,8,2025,True,-4474.819999999989
+684,2025-08-10 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-175.87,debit,Sunday,10,8,2025,False,-4650.689999999989
+685,2025-08-11 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-61.28,debit,Monday,11,8,2025,False,-4711.969999999988
+686,2025-08-11 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-285.51,debit,Monday,11,8,2025,False,-4997.479999999989
+687,2025-08-12 10:58:05.115834,Zara - Shopping,Zara,Shopping,-710.82,debit,Tuesday,12,8,2025,False,-5708.299999999988
+688,2025-08-13 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-63.62,debit,Wednesday,13,8,2025,False,-5771.919999999988
+689,2025-08-14 10:58:05.115834,Parking - Transportation,Parking,Transportation,-240.43,debit,Thursday,14,8,2025,False,-6012.3499999999885
+690,2025-08-14 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-175.08,debit,Thursday,14,8,2025,False,-6187.4299999999885
+691,2025-08-14 10:58:05.115834,Parking - Transportation,Parking,Transportation,-291.92,debit,Thursday,14,8,2025,False,-6479.3499999999885
+692,2025-08-15 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-158.4,debit,Friday,15,8,2025,True,-6637.749999999988
+693,2025-08-15 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-284.75,debit,Friday,15,8,2025,True,-6922.499999999988
+694,2025-08-16 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-264.88,debit,Saturday,16,8,2025,True,-7187.379999999988
+695,2025-08-16 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-85.99,debit,Saturday,16,8,2025,True,-7273.369999999988
+696,2025-08-17 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-244.56,debit,Sunday,17,8,2025,False,-7517.9299999999885
+697,2025-08-17 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-170.77,debit,Sunday,17,8,2025,False,-7688.699999999989
+698,2025-08-17 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-45.87,debit,Sunday,17,8,2025,False,-7734.569999999989
+699,2025-08-17 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-50.38,debit,Sunday,17,8,2025,False,-7784.949999999989
+700,2025-08-18 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-193.31,debit,Monday,18,8,2025,False,-7978.259999999989
+701,2025-08-18 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-417.68,debit,Monday,18,8,2025,False,-8395.93999999999
+702,2025-08-18 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-175.32,debit,Monday,18,8,2025,False,-8571.25999999999
+703,2025-08-19 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-216.3,debit,Tuesday,19,8,2025,False,-8787.559999999989
+704,2025-08-20 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-252.07,debit,Wednesday,20,8,2025,False,-9039.629999999988
+705,2025-08-20 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-337.66,debit,Wednesday,20,8,2025,False,-9377.289999999988
+706,2025-08-21 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-714.47,debit,Thursday,21,8,2025,False,-10091.759999999987
+707,2025-08-21 10:58:05.115834,Uber - Transportation,Uber,Transportation,-176.09,debit,Thursday,21,8,2025,False,-10267.849999999988
+708,2025-08-21 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-256.56,debit,Thursday,21,8,2025,False,-10524.409999999987
+709,2025-08-22 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-188.74,debit,Friday,22,8,2025,True,-10713.149999999987
+710,2025-08-22 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-133.5,debit,Friday,22,8,2025,True,-10846.649999999987
+711,2025-08-23 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-370.97,debit,Saturday,23,8,2025,True,-11217.619999999986
+712,2025-08-23 10:58:05.115834,du - Utilities,du,Utilities,-254.85,debit,Saturday,23,8,2025,True,-11472.469999999987
+713,2025-08-24 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-227.44,debit,Sunday,24,8,2025,False,-11699.909999999987
+714,2025-08-24 10:58:05.115834,Aster Clinic - Healthcare,Aster Clinic,Healthcare,-611.53,debit,Sunday,24,8,2025,False,-12311.439999999988
+715,2025-08-24 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-115.24,debit,Sunday,24,8,2025,False,-12426.679999999988
+716,2025-08-24 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-308.09,debit,Sunday,24,8,2025,False,-12734.769999999988
+717,2025-08-25 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-497.98,debit,Monday,25,8,2025,False,-13232.749999999987
+718,2025-08-26 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-343.54,debit,Tuesday,26,8,2025,False,-13576.289999999988
+719,2025-08-26 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-26.94,debit,Tuesday,26,8,2025,False,-13603.229999999989
+720,2025-08-27 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-141.67,debit,Wednesday,27,8,2025,False,-13744.899999999989
+721,2025-08-28 10:58:05.115834,Parking - Transportation,Parking,Transportation,-246.4,debit,Thursday,28,8,2025,False,-13991.299999999988
+722,2025-08-29 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-385.46,debit,Friday,29,8,2025,True,-14376.759999999987
+723,2025-08-29 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-46.12,debit,Friday,29,8,2025,True,-14422.879999999988
+724,2025-08-29 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-178.03,debit,Friday,29,8,2025,True,-14600.909999999989
+725,2025-08-29 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-198.11,debit,Friday,29,8,2025,True,-14799.01999999999
+726,2025-08-30 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-171.77,debit,Saturday,30,8,2025,True,-14970.78999999999
+727,2025-08-30 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-400.5,debit,Saturday,30,8,2025,True,-15371.28999999999
+728,2025-08-30 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-261.98,debit,Saturday,30,8,2025,True,-15633.26999999999
+729,2025-08-31 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-334.81,debit,Sunday,31,8,2025,False,-15968.079999999989
+730,2025-08-31 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-58.83,debit,Sunday,31,8,2025,False,-16026.909999999989
+731,2025-09-01 10:58:05.115834,Gold's Gym - Fitness,Gold's Gym,Fitness,-220.52,debit,Monday,1,9,2025,False,-16247.42999999999
+732,2025-09-01 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-93.59,debit,Monday,1,9,2025,False,-16341.01999999999
+733,2025-09-01 10:58:05.115834,YouTube Premium - Subscriptions,YouTube Premium,Subscriptions,-55.21,debit,Monday,1,9,2025,False,-16396.22999999999
+734,2025-09-01 10:58:05.115834,Zara - Shopping,Zara,Shopping,-1420.36,debit,Monday,1,9,2025,False,-17816.58999999999
+735,2025-09-01 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-258.94,debit,Monday,1,9,2025,False,-18075.529999999988
+736,2025-09-01 10:58:05.115834,Uber - Transportation,Uber,Transportation,-192.07,debit,Monday,1,9,2025,False,-18267.599999999988
+737,2025-09-01 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-143.29,debit,Monday,1,9,2025,False,-18410.88999999999
+738,2025-09-02 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-207.25,debit,Tuesday,2,9,2025,False,-18618.13999999999
+739,2025-09-03 10:58:05.115834,Uber - Transportation,Uber,Transportation,-256.53,debit,Wednesday,3,9,2025,False,-18874.669999999987
+740,2025-09-03 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-109.5,debit,Wednesday,3,9,2025,False,-18984.169999999987
+741,2025-09-03 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-174.29,debit,Wednesday,3,9,2025,False,-19158.45999999999
+742,2025-09-04 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-116.7,debit,Thursday,4,9,2025,False,-19275.15999999999
+743,2025-09-05 10:58:05.115834,Parking - Transportation,Parking,Transportation,-123.88,debit,Friday,5,9,2025,True,-19399.03999999999
+744,2025-09-05 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-51.59,debit,Friday,5,9,2025,True,-19450.62999999999
+745,2025-09-05 10:58:05.115834,Careem - Transportation,Careem,Transportation,-276.44,debit,Friday,5,9,2025,True,-19727.06999999999
+746,2025-09-05 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-69.04,debit,Friday,5,9,2025,True,-19796.10999999999
+747,2025-09-06 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-53.83,debit,Saturday,6,9,2025,True,-19849.93999999999
+748,2025-09-07 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-37.65,debit,Sunday,7,9,2025,False,-19887.589999999993
+749,2025-09-07 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-154.0,debit,Sunday,7,9,2025,False,-20041.589999999993
+750,2025-09-07 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-161.37,debit,Sunday,7,9,2025,False,-20202.959999999992
+751,2025-09-08 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-191.09,debit,Monday,8,9,2025,False,-20394.049999999992
+752,2025-09-08 10:58:05.115834,Parking - Transportation,Parking,Transportation,-46.8,debit,Monday,8,9,2025,False,-20440.84999999999
+753,2025-09-08 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-709.33,debit,Monday,8,9,2025,False,-21150.179999999993
+754,2025-09-09 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-104.72,debit,Tuesday,9,9,2025,False,-21254.899999999994
+755,2025-09-09 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,14902.0,credit,Tuesday,9,9,2025,False,-6352.899999999994
+756,2025-09-09 10:58:05.115834,Uber - Transportation,Uber,Transportation,-141.86,debit,Tuesday,9,9,2025,False,-6494.759999999994
+757,2025-09-11 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-27.49,debit,Thursday,11,9,2025,False,-6522.249999999994
+758,2025-09-11 10:58:05.115834,Spinneys - Groceries,Spinneys,Groceries,-376.87,debit,Thursday,11,9,2025,False,-6899.1199999999935
+759,2025-09-11 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-284.53,debit,Thursday,11,9,2025,False,-7183.649999999993
+760,2025-09-11 10:58:05.115834,Uber - Transportation,Uber,Transportation,-68.19,debit,Thursday,11,9,2025,False,-7251.839999999993
+761,2025-09-11 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-106.84,debit,Thursday,11,9,2025,False,-7358.679999999993
+762,2025-09-11 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-23.33,debit,Thursday,11,9,2025,False,-7382.009999999993
+763,2025-09-12 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-190.51,debit,Friday,12,9,2025,True,-7572.519999999993
+764,2025-09-12 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-242.9,debit,Friday,12,9,2025,True,-7815.419999999993
+765,2025-09-12 10:58:05.115834,Careem - Transportation,Careem,Transportation,-29.99,debit,Friday,12,9,2025,True,-7845.409999999993
+766,2025-09-12 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-74.72,debit,Friday,12,9,2025,True,-7920.129999999993
+767,2025-09-14 10:58:05.115834,ADNOC - Transportation [UNUSUAL],ADNOC,Transportation,-1603.5815127134792,debit,Sunday,14,9,2025,False,-8450.429999999993
+768,2025-09-15 10:58:05.115834,Fitness First - Fitness,Fitness First,Fitness,-413.35,debit,Monday,15,9,2025,False,-8863.779999999993
+769,2025-09-16 10:58:05.115834,Amazon Prime - Subscriptions,Amazon Prime,Subscriptions,-96.17,debit,Tuesday,16,9,2025,False,-8959.949999999993
+770,2025-09-18 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-260.35,debit,Thursday,18,9,2025,False,-9220.299999999994
+771,2025-09-18 10:58:05.115834,PlayStation Store - Entertainment,PlayStation Store,Entertainment,-652.33,debit,Thursday,18,9,2025,False,-9872.629999999994
+772,2025-09-18 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-186.06,debit,Thursday,18,9,2025,False,-10058.689999999993
+773,2025-09-18 10:58:05.115834,Zara - Shopping,Zara,Shopping,-946.38,debit,Thursday,18,9,2025,False,-11005.069999999992
+774,2025-09-18 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-185.06,debit,Thursday,18,9,2025,False,-11190.129999999992
+775,2025-09-19 10:58:05.115834,Noon.com - Shopping,Noon.com,Shopping,-929.74,debit,Friday,19,9,2025,True,-12119.869999999992
+776,2025-09-20 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-146.84,debit,Saturday,20,9,2025,True,-12266.709999999992
+777,2025-09-20 10:58:05.115834,Uber - Transportation,Uber,Transportation,-104.92,debit,Saturday,20,9,2025,True,-12371.629999999992
+778,2025-09-20 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-231.21,debit,Saturday,20,9,2025,True,-12602.839999999991
+779,2025-09-20 10:58:05.115834,Carrefour - Groceries,Carrefour,Groceries,-346.76,debit,Saturday,20,9,2025,True,-12949.599999999991
+780,2025-09-21 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-123.49,debit,Sunday,21,9,2025,False,-13073.089999999991
+781,2025-09-24 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-89.42,debit,Wednesday,24,9,2025,False,-13162.509999999991
+782,2025-09-24 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-900.8,debit,Wednesday,24,9,2025,False,-14063.30999999999
+783,2025-09-24 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-191.38,debit,Wednesday,24,9,2025,False,-14254.68999999999
+784,2025-09-24 10:58:05.115834,Home Centre - Shopping,Home Centre,Shopping,-966.01,debit,Wednesday,24,9,2025,False,-15220.69999999999
+785,2025-09-25 10:58:05.115834,Life Pharmacy - Healthcare,Life Pharmacy,Healthcare,-384.56,debit,Thursday,25,9,2025,False,-15605.25999999999
+786,2025-09-26 10:58:05.115834,RTA Salik - Transportation,RTA Salik,Transportation,-58.4,debit,Friday,26,9,2025,True,-15663.659999999989
+787,2025-09-26 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-374.26,debit,Friday,26,9,2025,True,-16037.91999999999
+788,2025-09-27 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-62.96,debit,Saturday,27,9,2025,True,-16100.879999999988
+789,2025-09-27 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-63.65,debit,Saturday,27,9,2025,True,-16164.529999999988
+790,2025-09-27 10:58:05.115834,Amazon Prime - Subscriptions,Amazon Prime,Subscriptions,-74.17,debit,Saturday,27,9,2025,True,-16238.699999999988
+791,2025-09-28 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-68.29,debit,Sunday,28,9,2025,False,-16306.989999999989
+792,2025-09-29 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-173.04,debit,Monday,29,9,2025,False,-16480.029999999988
+793,2025-09-29 10:58:05.115834,Uber - Transportation,Uber,Transportation,-44.63,debit,Monday,29,9,2025,False,-16524.65999999999
+794,2025-09-30 10:58:05.115834,Subway - Dining & Coffee,Subway,Dining & Coffee,-25.18,debit,Tuesday,30,9,2025,False,-16549.83999999999
+795,2025-10-01 10:58:05.115834,Careem - Transportation,Careem,Transportation,-75.11,debit,Wednesday,1,10,2025,False,-16624.94999999999
+796,2025-10-01 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-133.98,debit,Wednesday,1,10,2025,False,-16758.92999999999
+797,2025-10-01 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-74.85,debit,Wednesday,1,10,2025,False,-16833.779999999988
+798,2025-10-01 10:58:05.115834,Amazon.ae - Shopping,Amazon.ae,Shopping,-121.09,debit,Wednesday,1,10,2025,False,-16954.869999999988
+799,2025-10-01 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-106.79,debit,Wednesday,1,10,2025,False,-17061.65999999999
+800,2025-10-02 10:58:05.115834,Tim Hortons - Dining & Coffee,Tim Hortons,Dining & Coffee,-77.75,debit,Thursday,2,10,2025,False,-17139.40999999999
+801,2025-10-03 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-73.72,debit,Friday,3,10,2025,True,-17213.12999999999
+802,2025-10-03 10:58:05.115834,VOX Cinemas - Entertainment,VOX Cinemas,Entertainment,-1028.97,debit,Friday,3,10,2025,True,-18242.09999999999
+803,2025-10-04 10:58:05.115834,Zara - Shopping,Zara,Shopping,-601.73,debit,Saturday,4,10,2025,True,-18843.82999999999
+804,2025-10-04 10:58:05.115834,McDonald's - Dining & Coffee,McDonald's,Dining & Coffee,-150.59,debit,Saturday,4,10,2025,True,-18994.41999999999
+805,2025-10-04 10:58:05.115834,Dubai Mall - Entertainment,Dubai Mall,Entertainment,-144.01,debit,Saturday,4,10,2025,True,-19138.42999999999
+806,2025-10-04 10:58:05.115834,Choithrams - Groceries,Choithrams,Groceries,-367.94,debit,Saturday,4,10,2025,True,-19506.369999999988
+807,2025-10-05 10:58:05.115834,ENOC Petrol - Transportation,ENOC Petrol,Transportation,-269.34,debit,Sunday,5,10,2025,False,-19775.70999999999
+808,2025-10-05 10:58:05.115834,Mediclinic - Healthcare,Mediclinic,Healthcare,-416.34,debit,Sunday,5,10,2025,False,-20192.04999999999
+809,2025-10-05 10:58:05.115834,Pizza Hut - Dining & Coffee,Pizza Hut,Dining & Coffee,-191.57,debit,Sunday,5,10,2025,False,-20383.619999999988
+810,2025-10-05 10:58:05.115834,IKEA - Shopping,IKEA,Shopping,-153.52,debit,Sunday,5,10,2025,False,-20537.13999999999
+811,2025-10-06 10:58:05.115834,Lulu Hypermarket - Groceries,Lulu Hypermarket,Groceries,-136.73,debit,Monday,6,10,2025,False,-20673.869999999988
+812,2025-10-06 10:58:05.115834,Netflix - Entertainment,Netflix,Entertainment,-100.77,debit,Monday,6,10,2025,False,-20774.63999999999
+813,2025-10-07 10:58:05.115834,Home Centre - Shopping [UNUSUAL],Home Centre,Shopping,-1347.7879467782604,debit,Tuesday,7,10,2025,False,-21134.579999999987
+814,2025-10-07 10:58:05.115834,Building Maintenance - Utilities,Building Maintenance,Utilities,-216.13,debit,Tuesday,7,10,2025,False,-21350.70999999999
+815,2025-10-08 10:58:05.115834,Aster Clinic - Healthcare,Aster Clinic,Healthcare,-163.29,debit,Wednesday,8,10,2025,False,-21513.99999999999
+816,2025-10-08 10:58:05.115834,Spotify - Entertainment,Spotify,Entertainment,-78.86,debit,Wednesday,8,10,2025,False,-21592.85999999999
+817,2025-10-08 10:58:05.115834,West Zone - Groceries,West Zone,Groceries,-197.3,debit,Wednesday,8,10,2025,False,-21790.15999999999
+818,2025-10-09 10:58:05.115834,Starbucks - Dining & Coffee,Starbucks,Dining & Coffee,-76.98,debit,Thursday,9,10,2025,False,-21867.13999999999
+819,2025-10-09 10:58:05.115834,Salary Deposit - Company XYZ,Employer,Income,16413.0,credit,Thursday,9,10,2025,False,-5454.1399999999885
+820,2025-10-10 10:58:05.115834,ADNOC - Transportation,ADNOC,Transportation,-61.9,debit,Friday,10,10,2025,True,-5516.039999999988
+821,2025-10-10 10:58:05.115834,Parking - Transportation,Parking,Transportation,-102.78,debit,Friday,10,10,2025,True,-5618.819999999988
+822,2025-10-10 10:58:05.115834,Costa Coffee - Dining & Coffee,Costa Coffee,Dining & Coffee,-195.25,debit,Friday,10,10,2025,True,-5814.069999999988
