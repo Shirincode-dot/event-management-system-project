@@ -1,6 +1,5 @@
 // db.js
-const mysql = require('mysql2');
-
+const mysql = require('mysql2/promise');
 // Configure the connection pool
 const pool = mysql.createPool({
     host: 'localhost',      
@@ -25,4 +24,4 @@ pool.getConnection((err, connection) => {
 // -----------------------
 
 // Export the pool so other files (routes) can execute queries using async/await
-module.exports = pool.promise();
+module.exports = pool;

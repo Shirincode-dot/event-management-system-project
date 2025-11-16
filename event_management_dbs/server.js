@@ -1,25 +1,38 @@
-require('dotenv').config();
-// server.js
+require('dotenv').config({ path: './.env' });;
 const express = require('express');
 const app = express();
 const PORT = 3001; 
-
+const clientAuthRouter = require('./routes/clientAuth');
+const clientRoutesRouter = require('./routes/clientRoutes');
 // ❗ IMPORTANT: This line establishes your database connection from db.js
 require('./db'); 
 
 // Middleware: Allows Express to parse JSON data from incoming requests
 app.use(express.json()); 
+app.use(express.urlencoded({ extended: true }));
 
-// ➡️ Placeholder for routes (will be implemented next)
-// const authRoutes = require('./routes/auth');
-// app.use('/api/auth', authRoutes);
+// --- ROUTE IMPORTS ---
+// You need to define adminAuthRoutes here before app.use()
+const adminAuthRoutes = require('./routes/adminAuth'); 
+const adminRoutes = require('./routes/adminRoutes');
 
-// Simple route to check if the server is running
+
+// --- ROUTES ---
+
+// Simple check
 app.get('/', (req, res) => {
     res.send('Event Management Backend is running!');
 });
 
-// Start the server
+// Use the admin and client authentication routes for login/logout
+app.use('/api/admin', adminAuthRoutes); 
+app.use('/api/client', clientRoutesRouter);
+// Use the secured admin CRUD routes
+app.use('/api/admin', adminRoutes);
+
+app.use('/api/auth', clientAuthRouter);
+
+// --- START SERVER ---
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
