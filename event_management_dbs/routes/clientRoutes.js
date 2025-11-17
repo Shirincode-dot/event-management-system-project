@@ -236,12 +236,14 @@ router.put('/bookings/:booking_id', verifyToken, async (req, res) => {
             if (duplicateCheck.length > 0) return res.status(409).json({ message: "You already booked this event" });
 
             // Check for schedule conflict with any *other* existing booking
-            const [conflict] = await pool.query(`
-                SELECT b.booking_id
-                FROM Bookings b
-                JOIN Events e ON b.event_id = e.event_id
-                WHERE b.user_id = ? AND e.event_date = ? AND b.booking_id != ?
-            `, [user_id, eventDate, booking_id]); 
+            const [conflict] = await pool.query(
+    `SELECT b.booking_id
+     FROM Bookings b
+     JOIN Events e ON b.event_id = e.event_id
+     WHERE b.user_id = ? AND e.event_date = ? AND b.booking_id != ?`,
+    [user_id, eventDate, booking_id]
+);
+
 
             if (conflict.length > 0) return res.status(409).json({ message: "Schedule conflict with another event" });
 
