@@ -13,6 +13,7 @@ const CLIENT_ROLE = 'client';
 // POST /api/auth/register
 // -----------------------------------------------------------
 router.post('/register', async (req, res) => {
+    console.log("REGISTER ROUTE HIT");
     const { username, password } = req.body;
 
     // Basic Validation
