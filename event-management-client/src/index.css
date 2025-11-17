@@ -1,0 +1,174 @@
+:root{
+  --gold: #D6B588;
+  --sand: #C6C0B9;
+  --earth: #705E46;
+  --coffee: #422701;
+  --bg: #f5f7fa;
+  --muted: #f7f5f1;
+  --card-shadow: 0 6px 18px rgba(34,34,34,0.06);
+  --radius: 12px;
+  --max-width: 1200px;
+}
+
+/* Reset */
+*{box-sizing:border-box}
+html,body,#root{height:100%}
+body{
+  margin:0;
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  background: linear-gradient(180deg,var(--bg),#ffffff);
+  color: var(--coffee);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* Top header */
+.header {
+  background: linear-gradient(90deg, rgba(214,181,136,0.12), rgba(198,192,185,0.08));
+  border-bottom: 1px solid rgba(112,94,70,0.06);
+  padding: 18px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.header-inner{
+  max-width: var(--max-width);
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin:0 auto;
+}
+
+/* Brand */
+.brand {
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brand-badge{
+  height:48px;
+  width:48px;
+  border-radius:10px;
+  background: linear-gradient(135deg,var(--gold),var(--earth));
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: var(--card-shadow);
+  color:white;
+  font-weight:700;
+  font-size:18px;
+}
+.brand-title{
+  font-size:18px;
+  font-weight:700;
+  color:var(--coffee);
+}
+.brand-sub{
+  font-size:12px;
+  color:var(--earth);
+  opacity:0.9;
+}
+
+/* Container */
+.container{
+  max-width: var(--max-width);
+  margin: 28px auto;
+  padding: 0 18px;
+}
+
+/* Tab navigation (clean pill) */
+.tabs {
+  display:flex;
+  gap:12px;
+  margin-bottom:22px;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.tab {
+  padding:10px 16px;
+  border-radius:999px;
+  background:transparent;
+  border:1px solid rgba(112,94,70,0.06);
+  cursor:pointer;
+  font-weight:600;
+  color:var(--earth);
+  transition: all .18s ease;
+}
+.tab:hover{ transform:translateY(-2px) }
+.tab.active{
+  background: linear-gradient(90deg,var(--gold),var(--earth));
+  color:white;
+  box-shadow: 0 6px 20px rgba(112,94,70,0.12);
+}
+
+/* Grid */
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;
+}
+@media (max-width:900px){
+  .grid{ grid-template-columns: 1fr; }
+}
+
+/* Card */
+.card{
+  background: linear-gradient(180deg, white, var(--muted));
+  border-radius: var(--radius);
+  padding:18px;
+  box-shadow: var(--card-shadow);
+  border: 1px solid rgba(112,94,70,0.04);
+}
+.card h3{ margin:0 0 12px 0; color:var(--earth) }
+
+/* Booking list */
+.booking-list{ display:flex; flex-direction:column; gap:12px; }
+.booking-item{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px;
+  border-radius:10px;
+  background: linear-gradient(180deg, rgba(198,192,185,0.03), transparent);
+  border:1px solid rgba(112,94,70,0.03);
+}
+.booking-left{ display:flex; gap:12px; align-items:center; }
+.booking-meta{ font-size:14px; color:var(--coffee); }
+.booking-venue{ font-size:13px; color:rgba(66,39,1,0.8) }
+.booking-date{ font-size:13px; color:rgba(112,94,70,0.7) }
+
+/* status pill */
+.pill{
+  padding:6px 10px;
+  border-radius:999px;
+  font-weight:600;
+  font-size:13px;
+}
+.pill.pending{ background: rgba(214,181,136,0.14); color: var(--earth); border:1px solid rgba(214,181,136,0.18) }
+.pill.approved{ background: rgba(102,190,90,0.12); color: #166534; border:1px solid rgba(102,190,90,0.15) }
+.pill.rejected{ background: rgba(220,53,69,0.08); color: #991b1b; border:1px solid rgba(220,53,69,0.12) }
+
+/* actions */
+.actions{ display:flex; gap:8px; align-items:center; }
+.btn{
+  padding:8px 12px;
+  border-radius:8px;
+  border:none;
+  font-weight:600;
+  cursor:pointer;
+  box-shadow:none;
+}
+.btn.approve{ background:linear-gradient(90deg,var(--gold),var(--earth)); color:white; }
+.btn.reject{ background:#e65b5b; color:white; }
+.btn.view{ background:transparent; border:1px solid rgba(112,94,70,0.08); color:var(--earth) }
+
+/* Small helper */
+.muted{ color:rgba(66,39,1,0.6); font-size:13px }
+
+/* Users list */
+.user-row{ display:flex; justify-content:space-between; padding:10px; border-radius:8px; background:white; border:1px solid rgba(112,94,70,0.03) }
+
+/* Footer note */
+.footer-note{ text-align:center; margin-top:28px; color:rgba(66,39,1,0.45); font-size:13px }
