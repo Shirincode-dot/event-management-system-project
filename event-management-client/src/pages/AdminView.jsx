@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import BookingRequestItem from '../components/BookingRequestItem';
-
-// MOCK DATA
+import React, { useState, useEffect } from "react";
+import BookingRequestItem from "../components/BookingRequestItem";
+// MOCK DATA (Retained for UI structure)
 const INITIAL_BOOKINGS = [
   { id: 101, clientName: 'John Doe', venueName: 'The Grand Ballroom', date: '2025-12-25', totalGuests: 350, status: 'Pending' },
   { id: 102, clientName: 'Jane Smith', venueName: 'Riverside Gardens', date: '2026-03-15', totalGuests: 120, status: 'Pending' },
@@ -15,50 +14,89 @@ const MOCK_USERS = [
   { id: 3, name: 'Admin User', role: 'Admin', events: 0 },
 ];
 
-export default function AdminView(){
-  const [bookings, setBookings] = useState([]);
-
-async function loadBookings() {
-  const token = localStorage.getItem("adminToken");
-
-  const res = await fetch("http://localhost:3001/api/admin/bookings", {
-    headers: { Authorization: `Bearer ${token}` }
-  });
-
-  const data = await res.json();
-  setBookings(data);
-}
-
-useEffect(() => {
-  loadBookings();
-}, []);
+export default function AdminView({ token, setToken }) { // Accept token/setToken props
+  // ⬇️ Using INITIAL_BOOKINGS as default state to avoid empty screen on first render
+  const [bookings, setBookings] = useState(INITIAL_BOOKINGS); 
   const [activeTab, setActiveTab] = useState('Bookings');
+
+  // NOTE: This loadBookings function will now hit your Bypassed backend route.
+  async function loadBookings() {
+    // Since login is bypassed, we use the mock token for the header
+    const mockToken = token || "BYPASS_TOKEN";
+
+    try {
+      const res = await fetch("http://localhost:3001/api/admin/bookings", {
+        headers: { Authorization: `Bearer ${mockToken}` }
+      });
+      
+      if (!res.ok) {
+        // If the backend route is not created/bypassed yet, use mock data
+        console.warn("Backend /api/admin/bookings failed or not ready. Using mock data.");
+        setBookings(INITIAL_BOOKINGS);
+        return;
+      }
+      
+      const data = await res.json();
+      setBookings(data);
+    } catch (error) {
+      console.error("Error fetching bookings, falling back to mock data.", error);
+      setBookings(INITIAL_BOOKINGS);
+    }
+  }
+
+  // NOTE: The useEffect runs once to try and fetch live data
+  useEffect(() => {
+    loadBookings();
+  }, []);
 
   const updateBookingStatus = (id, newStatus) => {
     setBookings(prev => prev.map(b => b.id === id ? {...b, status:newStatus} : b));
   };
+  
   async function handleApprove(id) {
-  const token = localStorage.getItem("adminToken");
+    const mockToken = token || "BYPASS_TOKEN";
+    console.log(`Sending APPROVE request for booking ID: ${id}`);
+    
+    // Simulate API call success locally for smooth UI experience
+    updateBookingStatus(id, 'Approved');
 
-  await fetch(`http://localhost:3001/api/admin/bookings/${id}/approve`, {
-    method: "PUT",
-    headers: { Authorization: `Bearer ${token}` }
-  });
-
-  loadBookings();
-}
+    try {
+      await fetch(`http://localhost:3001/api/admin/bookings/${id}/approve`, {
+        method: "PUT",
+        headers: { Authorization: `Bearer ${mockToken}` }
+      });
+      // A subsequent call to loadBookings() would confirm the new status from the DB
+      // For now, we rely on the local update: loadBookings();
+    } catch (e) {
+      console.error("Failed to call approval API:", e);
+    }
+  }
+  
   async function handleReject(id) {
-  const token = localStorage.getItem("adminToken");
+    const mockToken = token || "BYPASS_TOKEN";
+    console.log(`Sending REJECT request for booking ID: ${id}`);
+    
+    // Simulate API call success locally for smooth UI experience
+    updateBookingStatus(id, 'Rejected');
 
-  await fetch(`http://localhost:3001/api/admin/bookings/${id}/reject`, {
-    method: "PUT",
-    headers: { Authorization: `Bearer ${token}` }
-  });
-
-  loadBookings();
-}
+    try {
+      await fetch(`http://localhost:3001/api/admin/bookings/${id}/reject`, {
+        method: "PUT",
+        headers: { Authorization: `Bearer ${mockToken}` }
+      });
+      // For now, we rely on the local update: loadBookings();
+    } catch (e) {
+      console.error("Failed to call rejection API:", e);
+    }
+  }
 
   const pending = bookings.filter(b => b.status === 'Pending');
+
+  // Function to safely handle user deletion without window.confirm/alert
+  const handleDeleteUser = (name) => {
+    console.log(`[ACTION] Delete user: ${name} (Mocked - In a real app, you'd use a custom modal for confirmation.)`);
+    // Logic to update user list state would go here
+  };
 
   return (
     <>
@@ -77,6 +115,8 @@ useEffect(() => {
               <div style={{fontWeight:700, color:'var(--earth)'}}>Welcome, Admin</div>
               <div className="muted">Overview & monitoring</div>
             </div>
+            {/* Added Logout button mock for completeness */}
+            <button className="btn view" onClick={() => console.log('Mock Logout: Token would be cleared here.')}>Logout</button>
           </div>
         </div>
       </header>
@@ -135,12 +175,10 @@ useEffect(() => {
                     <div className="muted">{u.role} • Events: {u.events}</div>
                   </div>
                   <div style={{display:'flex', gap:8}}>
-                    <button className="btn view" onClick={() => alert(`Edit user ${u.name}`)}>Edit</button>
+                    <button className="btn view" onClick={() => console.log(`[ACTION] Edit user ${u.name}`)}>Edit</button>
                     <button
                       className="btn reject"
-                      onClick={() => {
-                        if(window.confirm(`Delete ${u.name}?`)) alert(`${u.name} deleted (mock)`);
-                      }}
+                      onClick={() => handleDeleteUser(u.name)}
                     >Delete</button>
                   </div>
                 </div>
@@ -176,7 +214,7 @@ useEffect(() => {
             <h3>Venue Management</h3>
             <p className="muted">Add, edit or remove venue listings.</p>
             <div style={{marginTop:12, display:'flex', gap:12, alignItems:'center'}}>
-              <button className="btn approve" onClick={() => alert('Add new venue (mock)')}>+ Add New Venue</button>
+              <button className="btn approve" onClick={() => console.log('Mock Add new venue')}>+ Add New Venue</button>
               <div className="muted">Integrate with your backend to persist changes.</div>
             </div>
           </div>
