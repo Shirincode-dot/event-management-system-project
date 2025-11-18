@@ -66,5 +66,11 @@ CREATE TABLE admins (
     password_hash VARCHAR(255) NOT NULL,
     role VARCHAR(50) DEFAULT 'admin',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+<<<<<<< HEAD
 INSERT INTO admins (username, password_hash, role) 
 VALUES ('admin', '$2b$10$w09tJ/77O/9/90W5j/18o.jY7J6Xk9Xh/0k.X', 'admin');
+=======
+
+INSERT INTO admins (username, password_hash, role) 
+VALUES ('admin', '$2b$10$w09tJ/77O/9/90W5j/18o.jY7J6Xk9Xh/0k.X', 'admin');
+>>>>>>> 118a412 (Updated SQL schema and database files before merging)
