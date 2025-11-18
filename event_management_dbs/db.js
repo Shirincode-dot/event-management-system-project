@@ -4,7 +4,7 @@ const mysql = require('mysql2/promise');
 const pool = mysql.createPool({
     host: 'localhost',      
     user: 'root',           // The default MySQL username
-    password: 'Tiger@123', // ⬅️ 🚨 CRITICAL: REPLACE WITH YOUR PASSWORD
+    password: 'Days16byHerbert!', // ⬅️ 🚨 CRITICAL: REPLACE WITH YOUR PASSWORD
     database: 'event_management_db', // The name of the database you created
     waitForConnections: true,
     connectionLimit: 10,
