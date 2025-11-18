@@ -1,3 +1,4 @@
+index.css
 :root{
   --gold: #D6B588;
   --sand: #C6C0B9;
@@ -172,3 +173,4 @@ body{
 
 /* Footer note */
 .footer-note{ text-align:center; margin-top:28px; color:rgba(66,39,1,0.45); font-size:13px }
+
