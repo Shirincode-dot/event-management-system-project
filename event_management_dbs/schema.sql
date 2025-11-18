@@ -59,3 +59,12 @@ FOREIGN KEY (user_id) REFERENCES Users(user_id);
 ALTER TABLE Bookings
 ADD CONSTRAINT fk_booking_event
 FOREIGN KEY (event_id) REFERENCES Events(event_id);
+
+CREATE TABLE admins (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role VARCHAR(50) DEFAULT 'admin',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
+INSERT INTO admins (username, password_hash, role) 
+VALUES ('admin', '$2b$10$w09tJ/77O/9/90W5j/18o.jY7J6Xk9Xh/0k.X', 'admin');
