@@ -1,4 +1,5 @@
 require('dotenv').config({ path: './.env' });;
+const cors = require('cors'); //added cors to fix blocked connection by browser
 const express = require('express');
 const app = express();
 const PORT = 3001; 
@@ -8,6 +9,7 @@ const clientRoutesRouter = require('./routes/clientRoutes');
 require('./db'); 
 
 // Middleware: Allows Express to parse JSON data from incoming requests
+app.use(cors());
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 
