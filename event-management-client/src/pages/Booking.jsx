@@ -11,6 +11,9 @@ export default function Bookings() {
   const [loading, setLoading] = useState(true);
 
   const load = () => {
+    // if there is no token yet, don't attempt fetch
+    if(!token) return;
+
     setLoading(true);
     fetchBookings(token)
       .then(setBookings)
@@ -18,7 +21,9 @@ export default function Bookings() {
       .finally(() => setLoading(false));
   };
 
-  useEffect(load, []);
+  //added token to dependency array; if the token changes it should run automatically
+
+  useEffect(load, [token]); 
 
   const handleCancel = async (id) => {
     if (!window.confirm('Cancel this booking?')) return;
