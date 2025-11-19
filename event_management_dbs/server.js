@@ -1,42 +1,41 @@
-require('dotenv').config({ path: './.env' });;
-const cors = require('cors'); //added cors to fix blocked connection by browser
+require('dotenv').config();
+const cors = require('cors'); 
 const express = require('express');
 const app = express();
 const PORT = 3001; 
-const clientAuthRouter = require('./routes/clientAuth');
-const clientRoutesRouter = require('./routes/clientRoutes');
-// ❗ IMPORTANT: This line establishes your database connection from db.js
+
+// import db (run connection test)
 require('./db'); 
 
-// Middleware: Allows Express to parse JSON data from incoming requests
+// middleware
 app.use(cors({
   origin: ['http://localhost:5173', 'http://localhost:5174'] 
 }));
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 
-// --- ROUTE IMPORTS ---
-// You need to define adminAuthRoutes here before app.use()
-const adminAuthRoutes = require('./routes/adminAuth'); 
+// route imports
+const clientAuthRouter = require('./routes/clientAuth');
+const clientRoutesRouter = require('./routes/clientRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 
+// routes config
 
-// --- ROUTES ---
-
-// Simple check
+// home check
 app.get('/', (req, res) => {
     res.send('Event Management Backend is running!');
 });
 
-// Use the admin and client authentication routes for login/logout
-app.use('/api/admin', adminRoutes); 
-app.use('/api/client', clientRoutesRouter);
-// Use the secured admin CRUD routes
-app.use('/api/admin', adminRoutes);
-
+// client auth (login/register)
 app.use('/api/auth', clientAuthRouter);
 
-// --- START SERVER ---
+// client events and booking
+app.use('/api/events', clientRoutesRouter);
+
+// admin routes (login + dashboard)
+app.use('/api/admin', adminRoutes); 
+
+// start server
 app.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });

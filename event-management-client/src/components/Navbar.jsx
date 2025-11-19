@@ -15,8 +15,8 @@ export default function Navbar() {
       <div className="header-inner">
         {/* updated logo */}
         <Link to="/" className="brand">
-          <div className="brand-badge">EE</div>
-          <span className="brand-title">EUPHORIA</span>
+          <div className="brand-badge">DE</div>
+          <span className="brand-title">DUBAI EVENTS</span>
         </Link>
 
         {/* updated nav links */}

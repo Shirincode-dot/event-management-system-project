@@ -12,7 +12,7 @@ export default function Home() {
 
         {/* added personalized greeting */}
         <h1>
-            { user ? `Welcome back, ${user.username}!` : "Host unforgettable events with Euphoria." }
+            { user ? `Welcome back, ${user.username}!` : "Host unforgettable events with Dubai Events." }
         </h1>
 
         <p className="muted">
