@@ -156,7 +156,7 @@ body{
 /* ACTION BUTTONS */
 .actions{ 
   display:flex; 
-  gap:12px;    /* ★ MORE SPACE BETWEEN BUTTONS */
+  gap:12px;    
   align-items:center; 
 }
 
