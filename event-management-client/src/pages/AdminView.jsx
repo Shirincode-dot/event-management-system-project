@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react";
 import BookingRequestItem from "../components/BookingRequestItem";
 
 const INITIAL_BOOKINGS = [
-  { id: 101, clientName: 'John Doe', venueName: 'The Grand Ballroom', date: '2025-12-25', totalGuests: 350, status: 'Pending' },
+  { id: 101, clientName: 'John das', venueName: 'The Grand Ballroom', date: '2025-12-25', totalGuests: 350, status: 'Pending' },
   { id: 102, clientName: 'Jane Smith', venueName: 'Riverside Gardens', date: '2026-03-15', totalGuests: 120, status: 'Pending' },
-  { id: 103, clientName: 'David Lee', venueName: 'The Loft Studio', date: '2025-11-20', totalGuests: 75, status: 'Approved' },
-  { id: 104, clientName: 'Emily Chen', venueName: 'Executive Suite', date: '2026-01-05', totalGuests: 25, status: 'Rejected' },
+  { id: 103, clientName: 'Eugene lee yang', venueName: 'The Loft Studio', date: '2025-11-20', totalGuests: 75, status: 'Approved' },
+  { id: 104, clientName: 'Lucy Chen', venueName: 'Executive Suite', date: '2026-01-05', totalGuests: 25, status: 'Rejected' },
 ];
 
 const MOCK_USERS = [
-  { id: 1, name: 'John Doe', role: 'Client', events: 2 },
+  { id: 1, name: 'John Das', role: 'Client', events: 2 },
   { id: 2, name: 'Jane Smith', role: 'Client', events: 1 },
   { id: 3, name: 'Admin User', role: 'Admin', events: 0 },
 ];
@@ -44,7 +44,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
     }
   }
 
-  // The useEffect runs once to try and fetch live data
+  // The useEffect runs once to try to fetch live data
   useEffect(() => {
     loadBookings();
   }, []);
