@@ -1,5 +1,5 @@
 import React from 'react';
-import './BookingRequestItem.css'; // Add the CSS file
+import './BookingRequestItem.css'; 
 
 export default function BookingRequestItem({ request, onApprove, onReject }) {
   if (!request) return null;
