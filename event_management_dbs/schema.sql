@@ -1,19 +1,45 @@
--- schema.sql file for euphoria events
-
--- database and tables setup
+-- ==========================================
+-- EMS DATABASE RESET SCRIPT (SAFE VERSION)
+-- ==========================================
 
 CREATE DATABASE IF NOT EXISTS event_management_db;
 USE event_management_db;
 
--- users table
+-- 1. DISABLE CHECKS TO ALLOW RESET
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- 2. DROP TABLES
+DROP TABLE IF EXISTS Guests;
+DROP TABLE IF EXISTS Bookings;
+DROP TABLE IF EXISTS Events;
+DROP TABLE IF EXISTS Venues;
+DROP TABLE IF EXISTS admins;
+DROP TABLE IF EXISTS Users;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+-- ==========================================
+-- TABLE CREATION
+-- ==========================================
+
+-- 3. USERS TABLE
 CREATE TABLE Users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL UNIQUE,
     password_hash VARCHAR(255) NOT NULL,
-    role ENUM('client', 'admin') NOT NULL
+    role VARCHAR(50) NOT NULL DEFAULT 'client'
 );
 
--- venues table
+-- 4. ADMINS TABLE
+CREATE TABLE admins (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role VARCHAR(50) DEFAULT 'admin',
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 5. VENUES TABLE
 CREATE TABLE Venues (
     venue_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -21,7 +47,7 @@ CREATE TABLE Venues (
     capacity INT
 );
 
--- events table
+-- 6. EVENTS TABLE
 CREATE TABLE Events (
     event_id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -34,54 +60,54 @@ CREATE TABLE Events (
     FOREIGN KEY (organizer_user_id) REFERENCES Users(user_id)
 );
 
--- booking table
+-- 7. BOOKINGS TABLE
 CREATE TABLE Bookings (
     booking_id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
     event_id INT NOT NULL,
     booking_date DATETIME DEFAULT CURRENT_TIMESTAMP,
-    status ENUM('confirmed', 'cancelled') DEFAULT 'confirmed',
+    status VARCHAR(50) DEFAULT 'Pending',
     UNIQUE KEY (user_id, event_id),
     FOREIGN KEY (user_id) REFERENCES Users(user_id),
     FOREIGN KEY (event_id) REFERENCES Events(event_id)
 );
 
--- admin table
-CREATE TABLE admins (
-    user_id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL UNIQUE,
-    password_hash VARCHAR(255) NOT NULL,
-    role VARCHAR(50) DEFAULT 'admin',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- 8. GUESTS TABLE
+CREATE TABLE Guests (
+    guest_id INT AUTO_INCREMENT PRIMARY KEY,
+    booking_id INT NOT NULL,
+    full_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255),
+    special_requests TEXT,
+    FOREIGN KEY (booking_id) REFERENCES Bookings(booking_id) ON DELETE CASCADE
 );
 
--- ===============
--- seeding data
--- ===============
+-- ==========================================
+-- DATA INSERTION
+-- ==========================================
 
--- create admin
+-- 9. CREATE ADMIN USER
 INSERT INTO admins (username, password_hash, role) 
-VALUES ('admin', '$2b$10$w09tJ/77O/9/90W5j/18o.jY7J6Xk9Xh/0k.X', 'admin');
+VALUES ('admin', '$2b$10$qW3GEM29glMN4pn1I9SnVO2ZABWuqyHRWwPt9Yl4XjnFaVua6YdBq', 'admin');
 
--- create organizer user
+-- 10. CREATE ORGANIZER
 INSERT INTO Users (username, password_hash, role) 
-VALUES ('DubaiEventsCo', 'hash123', 'client');
+VALUES ('DubaiEventsHost', 'placeholder', 'client');
 
--- capture id of user
 SET @organizer_id = LAST_INSERT_ID();
 
--- create venues
+-- 11. VENUES
 INSERT INTO Venues (name, address, capacity) VALUES 
-('Dubai Opera', 'Sheikh Mohammed bin Rashid Blvd - Downtown Dubai', 2000),
-('Dubai World Trade Centre (DWTC)', 'Sheikh Zayed Rd - Trade Centre 2', 15000),
-('Coca-Cola Arena', 'City Walk - Al Wasl', 17000),
-('Alserkal Avenue', '17th St - Al Quoz 1', 500),
-('Atlantis The Royal', 'Crescent Rd - Palm Jumeirah', 800);
+('Dubai Marina Yacht Club', 'Dubai Marina - Pier 7', 150),
+('Burj Khalifa', '1 Sheikh Mohammed bin Rashid Blvd', 100),
+('Dubai Creek Harbour', 'Ras Al Khor - The Viewing Point', 2000),
+('Expo City Dubai', 'Al Wasl Plaza', 3000),
+('Dubai World Trade Centre (GITEX)', 'Sheikh Zayed Rd', 7000);
 
--- create events
+-- 12. EVENTS
 INSERT INTO Events (title, description, event_date, venue_id, organizer_user_id, ticket_price) VALUES 
-('Future Tech Summit 2026', 'The region\'s largest gathering of AI and Robotics experts.', '2026-11-15 09:00:00', 2, @organizer_id, 299.00),
-('The Phantom of the Opera', 'The award-winning musical returns to the heart of Downtown.', '2026-12-05 20:00:00', 1, @organizer_id, 550.00),
-('Dubai Summer Concert Series', 'Beat the heat with live performances from international stars.', '2026-07-20 19:00:00', 3, @organizer_id, 195.50),
-('Contemporary Art Week', 'A showcase of local artists, indie films, and workshops.', '2026-10-10 10:00:00', 4, @organizer_id, 50.00),
-('Royal Gala Dinner', 'An exclusive black-tie networking evening at the Palm.', '2026-09-12 20:30:00', 5, @organizer_id, 1200.00);
+('Luxury Sunset Yacht Cruise', 'Experience the marina skyline from a private luxury yacht. Includes dinner.', '2026-01-15 17:00:00', 1, @organizer_id, 500.00),
+('VIP Burj Khalifa Sky Tour', 'Exclusive access to Level 148 with private refreshments.', '2026-02-20 10:00:00', 2, @organizer_id, 300.00),
+('Marshmello Live: Creek Harbour Nights', 'An electrifying night with the world-famous DJ under the stars.', '2026-03-12 21:00:00', 3, @organizer_id, 2500.00),
+('Mega Zumba Marathon 2026', 'Get fit at Al Wasl Plaza with 3000 other fitness enthusiasts.', '2026-04-05 08:00:00', 4, @organizer_id, 250.00),
+('GITEX: New Samsung Galaxy Unpacked', 'Be the first to see the future of mobile technology.', '2026-10-10 11:00:00', 5, @organizer_id, 150.00);

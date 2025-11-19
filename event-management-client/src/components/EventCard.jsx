@@ -6,7 +6,7 @@ export default function EventCard({ event, availability, onCheck, onBook }) {
       <div className="meta">
         <span>{new Date(event.event_date).toLocaleDateString()}</span>
         <span>{event.venue_name}</span>
-        <span>${event.ticket_price}</span>
+        <span>{event.ticket_price} AED</span>
       </div>
       {availability && (
         <p className="muted">

@@ -18,7 +18,7 @@ export default function Booking() {
 
   const loadBookings = async () => {
     try {
-      const res = await fetch('http://localhost:3001/api/events/my-bookings', {
+      const res = await fetch('http://localhost:3001/api/my-bookings', {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (res.ok) setBookings(await res.json());
@@ -31,7 +31,7 @@ export default function Booking() {
   const handleCancel = async (id) => {
     if (!window.confirm('Are you sure you want to cancel this mission?')) return;
     try {
-      const res = await fetch(`http://localhost:3001/api/events/bookings/${id}/cancel`, {
+      const res = await fetch(`http://localhost:3001/api/bookings/${id}/cancel`, {
         method: 'PUT',
         headers: { Authorization: `Bearer ${token}` }
       });
@@ -46,7 +46,7 @@ export default function Booking() {
     setSelectedBooking(bookingId);
     // to fetch guests for booking
     try {
-      const res = await fetch(`http://localhost:3001/api/events/bookings/${bookingId}/guests`, {
+      const res = await fetch(`http://localhost:3001/api/bookings/${bookingId}/guests`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       if (res.ok) setGuests(await res.json());
@@ -61,7 +61,7 @@ export default function Booking() {
     if(!newGuest.fullName) return;
 
     try {
-      await fetch(`http://localhost:3001/api/events/bookings/${selectedBooking}/guests`, {
+      await fetch(`http://localhost:3001/api/bookings/${selectedBooking}/guests`, {
         method: 'POST',
         headers: { 
           'Content-Type': 'application/json', 
@@ -80,7 +80,7 @@ export default function Booking() {
 
   return (
     <main className="container">
-      <h2 style={{color: 'var(--neon-cyan)', marginBottom: '20px'}}>MY MISSION LOGS</h2>
+      <h2 style={{color: 'var(--neon-cyan)', marginBottom: '20px'}}>MY BOOKINGS</h2>
 
       <div className="grid">
         {/* booking list on left column */}

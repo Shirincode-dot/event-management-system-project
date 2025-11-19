@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 app.use('/api/auth', clientAuthRouter);
 
 // client events and booking
-app.use('/api/events', clientRoutesRouter);
+app.use('/api', clientRoutesRouter);
 
 // admin routes (login + dashboard)
 app.use('/api/admin', adminRoutes); 

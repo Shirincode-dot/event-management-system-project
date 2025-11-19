@@ -1,72 +1,81 @@
-const API = 'http://localhost:3001/api';
+// src/api.js
 
-function getAuthHeaders(token) {
-  return token ? { Authorization: `Bearer ${token}` } : {};
-}
+const API_URL = 'http://localhost:3001/api';
 
-export async function fetchEvents() {
-  const res = await fetch(`${API}/client/events`);
-  if (!res.ok) throw new Error('Failed to load events');
+// --- PUBLIC ROUTES ---
+
+export const fetchEvents = async () => {
+  // This matches the backend route: /api + /events
+  const res = await fetch(`${API_URL}/events`);
+  if (!res.ok) throw new Error('Failed to fetch events');
   return res.json();
-}
+};
 
-export async function fetchVenues() {
-  const res = await fetch(`${API}/client/venues`);
-  if (!res.ok) throw new Error('Failed to load venues');
+export const fetchVenues = async () => {
+  const res = await fetch(`${API_URL}/venues`);
+  if (!res.ok) throw new Error('Failed to fetch venues');
   return res.json();
-}
+};
 
-export async function checkAvailability(eventId) {
-  const res = await fetch(`${API}/client/events/${eventId}/availability`);
+export const checkAvailability = async (eventId) => {
+  const res = await fetch(`${API_URL}/events/${eventId}/availability`);
   if (!res.ok) throw new Error('Failed to check availability');
   return res.json();
-}
+};
 
-export async function login(username, password) {
-  const res = await fetch(`${API}/auth/login`, {
+// --- AUTH ROUTES ---
+
+export const login = async (username, password) => {
+  const res = await fetch(`${API_URL}/auth/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username, password })
+    body: JSON.stringify({ username, password }),
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.message || 'Login failed');
   return data.token;
-}
+};
 
-export async function register(username, password) {
-  const res = await fetch(`${API}/auth/register`, {
+export const register = async (username, password) => {
+  const res = await fetch(`${API_URL}/auth/register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username, password })
+    body: JSON.stringify({ username, password }),
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.message || 'Registration failed');
   return data.token;
-}
+};
 
-export async function fetchBookings(token) {
-  const res = await fetch(`${API}/client/bookings`, { headers: getAuthHeaders(token) });
-  if (!res.ok) throw new Error('Failed to load bookings');
+// --- PROTECTED ROUTES (Bookings) ---
+
+export const fetchBookings = async (token) => {
+  const res = await fetch(`${API_URL}/my-bookings`, {
+    headers: { Authorization: `Bearer ${token}` },
+  });
+  if (!res.ok) throw new Error('Failed to fetch bookings');
   return res.json();
-}
+};
 
-export async function createBooking(eventId, token) {
-  const res = await fetch(`${API}/client/bookings`, {
+export const createBooking = async (eventId, token) => {
+  const res = await fetch(`${API_URL}/bookings`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', ...getAuthHeaders(token) },
-    body: JSON.stringify({ event_id: eventId })
+    headers: { 
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${token}` 
+    },
+    body: JSON.stringify({ event_id: eventId }),
   });
   const data = await res.json();
   if (!res.ok) throw new Error(data.message || 'Booking failed');
   return data;
-}
+};
 
-export async function cancelBooking(bookingId, token) {
-  const res = await fetch(`${API}/client/bookings/${bookingId}`, {
-    method: 'DELETE',
-    headers: getAuthHeaders(token)
+export const cancelBooking = async (bookingId, token) => {
+  const res = await fetch(`${API_URL}/bookings/${bookingId}/cancel`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${token}` },
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data.message || 'Cancel failed');
-  return data;
-}
+  if (!res.ok) throw new Error('Cancellation failed');
+  return res.json();
+};
