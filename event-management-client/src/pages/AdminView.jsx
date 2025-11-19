@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import BookingRequestItem from "../components/BookingRequestItem";
-// MOCK DATA (Retained for UI structure)
+
 const INITIAL_BOOKINGS = [
   { id: 101, clientName: 'John Doe', venueName: 'The Grand Ballroom', date: '2025-12-25', totalGuests: 350, status: 'Pending' },
   { id: 102, clientName: 'Jane Smith', venueName: 'Riverside Gardens', date: '2026-03-15', totalGuests: 120, status: 'Pending' },
@@ -15,13 +15,13 @@ const MOCK_USERS = [
 ];
 
 export default function AdminView({ token, setToken }) { // Accept token/setToken props
-  // ⬇️ Using INITIAL_BOOKINGS as default state to avoid empty screen on first render
+  
   const [bookings, setBookings] = useState(INITIAL_BOOKINGS); 
   const [activeTab, setActiveTab] = useState('Bookings');
 
-  // NOTE: This loadBookings function will now hit your Bypassed backend route.
+ 
   async function loadBookings() {
-    // Since login is bypassed, we use the mock token for the header
+    
     const mockToken = token || "BYPASS_TOKEN";
 
     try {
@@ -44,7 +44,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
     }
   }
 
-  // NOTE: The useEffect runs once to try and fetch live data
+  // The useEffect runs once to try and fetch live data
   useEffect(() => {
     loadBookings();
   }, []);
@@ -65,8 +65,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
         method: "PUT",
         headers: { Authorization: `Bearer ${mockToken}` }
       });
-      // A subsequent call to loadBookings() would confirm the new status from the DB
-      // For now, we rely on the local update: loadBookings();
+     
     } catch (e) {
       console.error("Failed to call approval API:", e);
     }
@@ -76,7 +75,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
     const mockToken = token || "BYPASS_TOKEN";
     console.log(`Sending REJECT request for booking ID: ${id}`);
     
-    // Simulate API call success locally for smooth UI experience
+   
     updateBookingStatus(id, 'Rejected');
 
     try {
@@ -115,7 +114,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
               <div style={{fontWeight:700, color:'var(--earth)'}}>Welcome, Admin</div>
               <div className="muted">Overview & monitoring</div>
             </div>
-            {/* Added Logout button mock for completeness */}
+            
             <button className="btn view" onClick={() => console.log('Mock Logout: Token would be cleared here.')}>Logout</button>
           </div>
         </div>
@@ -134,7 +133,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
           ))}
         </nav>
 
-        {/* Content */}
+        
         {activeTab === 'Bookings' && (
           <>
             <div className="grid" aria-live="polite">
@@ -191,7 +190,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
           <div className="grid">
             <section className="card">
               <h3>Revenue Snapshot</h3>
-              <p className="muted">Mock data — integrate your backend to populate.</p>
+              <p className="muted">Mock data — sample data shown for now.</p>
               <div style={{marginTop:12}}>
                 <div style={{fontSize:22, fontWeight:800, color:'var(--earth)'}}>$50,000</div>
                 <div className="muted">Total Revenue (mock)</div>
@@ -215,7 +214,7 @@ export default function AdminView({ token, setToken }) { // Accept token/setToke
             <p className="muted">Add, edit or remove venue listings.</p>
             <div style={{marginTop:12, display:'flex', gap:12, alignItems:'center'}}>
               <button className="btn approve" onClick={() => console.log('Mock Add new venue')}>+ Add New Venue</button>
-              <div className="muted">Integrate with your backend to persist changes.</div>
+              <div className="muted"></div>
             </div>
           </div>
         )}
