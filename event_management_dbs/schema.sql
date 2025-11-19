@@ -26,6 +26,7 @@ CREATE TABLE Events (
     event_date DATETIME NOT NULL,
     venue_id INT,
     organizer_user_id INT
+    ticket_price DECIMAL(10, 2) DEFAULT 0.00
 );
 
 -- 3. Define Relationships (Foreign Keys)
