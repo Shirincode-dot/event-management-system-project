@@ -9,7 +9,9 @@ const clientRoutesRouter = require('./routes/clientRoutes');
 require('./db'); 
 
 // Middleware: Allows Express to parse JSON data from incoming requests
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5173', 'http://localhost:5174'] 
+}));
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 
