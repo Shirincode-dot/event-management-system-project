@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 });
 
 // Use the admin and client authentication routes for login/logout
-app.use('/api/admin', adminAuthRoutes); 
+app.use('/api/admin', adminRoutes); 
 app.use('/api/client', clientRoutesRouter);
 // Use the secured admin CRUD routes
 app.use('/api/admin', adminRoutes);
