@@ -1,41 +1,45 @@
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
 export default function Navbar() {
-  const { isAuthed, user, logout } = useAuth();
-  const loc = useLocation();
+  const { user, logout } = useAuth();
   const nav = useNavigate();
 
-  const active = (p) => loc.pathname === p ? 'active' : '';
+  const handleLogout = () => {
+    logout();
+    nav('/');
+  };
 
   return (
-    <header className="nav">
-      <div className="nav-inner">
+    <header className="header">
+      <div className="header-inner">
+        {/* updated logo */}
         <Link to="/" className="brand">
           <div className="brand-badge">EE</div>
-          <div>
-            <div className="brand-title">Euphoria Events</div>
-            <div className="brand-sub">Client Portal</div>
-          </div>
+          <span className="brand-title">EUPHORIA</span>
         </Link>
+
+        {/* updated nav links */}
         <nav className="nav-links">
-          <Link className={active('/')} to="/">Home</Link>
-          <Link className={active('/events')} to="/events">Events</Link>
-          {isAuthed && <Link className={active('/bookings')} to="/bookings">My Bookings</Link>}
-        </nav>
-        <div className="nav-actions">
-          {isAuthed ? (
+          <Link to="/">Home</Link>
+          <Link to="/events">Events</Link>
+          
+          {user ? (
             <>
-              <span className="muted">Hi, {user?.username || 'Guest'}</span>
-              <button className="btn ghost" onClick={() => { logout(); nav('/'); }}>Logout</button>
+              <Link to="/bookings">My Bookings</Link>
+              {/* updated logout */}
+              <button 
+                onClick={handleLogout} 
+                className="btn ghost" 
+                style={{ padding: '5px 15px', fontSize: '14px', marginLeft: '10px' }}
+              >
+                LOGOUT
+              </button>
             </>
           ) : (
-            <>
-              <Link className="btn ghost" to="/login">Login</Link>
-              <Link className="btn solid" to="/register">Sign up</Link>
-            </>
+            <Link to="/login">Login</Link>
           )}
-        </div>
+        </nav>
       </div>
     </header>
   );
