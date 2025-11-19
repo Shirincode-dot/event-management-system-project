@@ -7,10 +7,9 @@ export default function AdminLogin() {
 
   async function handleLogin(e) {
     e.preventDefault();
-    setError(""); // Clear previous errors
+    setError(""); 
 
-    try {
-      // **This is the fixed and complete fetch call:**
+    t
       const res = await fetch("http://localhost:3001/api/admin/login", { 
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -20,7 +19,7 @@ export default function AdminLogin() {
       const data = await res.json();
 
       if (res.ok) {
-        // Success: Store the token and redirect
+        
         localStorage.setItem("adminToken", data.token);
         window.location.href = "/admin";  // Go to dashboard
       } else {
@@ -28,7 +27,7 @@ export default function AdminLogin() {
         setError(data.message || "Login failed. Check server log for details.");
       }
     } catch (err) {
-      // Network or parsing error (e.g., backend server is down)
+      // Network or parsing error
       console.error("Login attempt failed:", err);
       setError("Could not connect to the API server. Is the backend running?");
     }
